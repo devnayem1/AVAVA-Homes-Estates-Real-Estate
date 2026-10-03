@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1333" viewBox="0 0 2000 1333" role="img" aria-label="Placeholder for Floor plan, second floor as measured">
+<defs><pattern id="p" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M0 8h16M8 0v16" stroke="#a8792f" stroke-width="0.8" fill="none"/></pattern></defs>
+<rect width="2000" height="1333" fill="#ded6c4"/>
+<rect width="2000" height="1333" fill="url(#p)" opacity="0.36"/>
+<g stroke="#5c564a" stroke-width="2" fill="none" opacity="0.75">
+<path d="M34 92V34h58"/><path d="M1908 34h58v58"/>
+<path d="M1966 1241v58h-58"/><path d="M92 1299H34v-58"/>
+</g>
+<g fill="#4a4438" font-family="Helvetica, Arial, sans-serif" text-anchor="middle" opacity="0.7">
+<text x="1000" y="640" font-size="72" letter-spacing="7">FLOOR PLAN</text>
+<text x="1000" y="716" font-size="30" letter-spacing="3">SHEET 4471 · PLACEHOLDER 2000 × 1333</text>
+</g>
+</svg>
