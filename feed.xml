@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AVAVA Homes &amp; Estates — the journal</title>
+  <subtitle>Market reports, legal changes and what we learned refusing files.</subtitle>
+  <link href="https://example.com/feed.xml" rel="self"/>
+  <link href="https://example.com/blog.html"/>
+  <id>https://example.com/blog/</id>
+  <updated>2026-08-14T09:00:00Z</updated>
+  <entry>
+    <title>The short-let licence review, street by street</title>
+    <link href="https://example.com/blog-single.html"/>
+    <id>https://example.com/blog/01</id>
+    <updated>2026-08-14T09:00:00Z</updated>
+    <published>2026-08-14T09:00:00Z</published>
+    <author><name>Tomás Ferrer</name></author>
+    <category term="Regulation"/>
+    <summary>Six districts lost their tourism licence in July. We mapped the addresses that keep it and how asking prices reacted in the four weeks after.</summary>
+  </entry>
+  <entry>
+    <title>The attic that was never there</title>
+    <link href="https://example.com/blog-single.html"/>
+    <id>https://example.com/blog/02</id>
+    <updated>2026-08-12T09:00:00Z</updated>
+    <published>2026-08-12T09:00:00Z</published>
+    <author><name>Sofia Marchetti</name></author>
+    <category term="From the files"/>
+    <summary>A 210 m² townhouse in the old town, listed for eleven months by two agencies. The top floor did not appear on any permit issued since 1904.</summary>
+  </entry>
+  <entry>
+    <title>Staged payments on off-plan purchases</title>
+    <link href="https://example.com/blog-single.html"/>
+    <id>https://example.com/blog/03</id>
+    <updated>2026-08-07T09:00:00Z</updated>
+    <published>2026-08-07T09:00:00Z</published>
+    <author><name>Marc Oliveira</name></author>
+    <category term="Financing"/>
+    <summary>The three clauses that protect a buyer when a delivery date slips — and the one developers quietly remove from the standard contract.</summary>
+  </entry>
+  <entry>
+    <title>Issue 14 — the quarter in thirty-eight cities</title>
+    <link href="https://example.com/blog-single.html"/>
+    <id>https://example.com/blog/04</id>
+    <updated>2026-08-06T09:00:00Z</updated>
+    <published>2026-08-06T09:00:00Z</published>
+    <author><name>Léa Dubois</name></author>
+    <category term="Market reports"/>
+    <summary>Medians barely moved, but the discount sellers accepted widened with every price band. The full spread, city by city and street by street.</summary>
+  </entry>
+  <entry>
+    <title>Restoration grants in the historic centres</title>
+    <link href="https://example.com/blog-single.html"/>
+    <id>https://example.com/blog/05</id>
+    <updated>2026-07-29T09:00:00Z</updated>
+    <published>2026-07-29T09:00:00Z</published>
+    <author><name>Marco Rizzo</name></author>
+    <category term="Renovation"/>
+    <summary>Up to thirty per cent of the works covered in Palermo and Porto. What qualifies, what does not, and how long the paperwork really takes.</summary>
+  </entry>
+  <entry>
+    <title>Eight metres that cost forty thousand</title>
+    <link href="https://example.com/blog-single.html"/>
+    <id>https://example.com/blog/06</id>
+    <updated>2026-07-24T09:00:00Z</updated>
+    <published>2026-07-24T09:00:00Z</published>
+    <author><name>Elena Marín</name></author>
+    <category term="From the files"/>
+    <summary>The deed said a hundred and four square metres. The laser said ninety-six. What happens between those two numbers and a signature.</summary>
+  </entry>
+  <entry>
+    <title>Notary practice across four countries, compared</title>
+    <link href="https://example.com/blog-single.html"/>
+    <id>https://example.com/blog/07</id>
+    <updated>2026-07-18T09:00:00Z</updated>
+    <published>2026-07-18T09:00:00Z</published>
+    <author><name>Nuno Cardoso</name></author>
+    <category term="Regulation"/>
+    <summary>Who checks what, what it costs, and where a buyer is genuinely protected rather than merely charged.</summary>
+  </entry>
+  <entry>
+    <title>Where the days-to-offer number actually comes from</title>
+    <link href="https://example.com/blog-single.html"/>
+    <id>https://example.com/blog/08</id>
+    <updated>2026-07-11T09:00:00Z</updated>
+    <published>2026-07-11T09:00:00Z</published>
+    <author><name>Kasia Wrona</name></author>
+    <category term="Market reports"/>
+    <summary>Portals count from the day a listing is republished. We count from first publication, which is why our forty-one looks worse than their nineteen.</summary>
+  </entry>
+  <entry>
+    <title>Two lenders, one file, forty-two basis points</title>
+    <link href="https://example.com/blog-single.html"/>
+    <id>https://example.com/blog/09</id>
+    <updated>2026-07-03T09:00:00Z</updated>
+    <published>2026-07-03T09:00:00Z</published>
+    <author><name>Rita Almeida</name></author>
+    <category term="Financing"/>
+    <summary>We sent the same complete application to eleven lenders. The spread on identical paperwork was wider than a year of rate movement.</summary>
+  </entry>
+  <entry>
+    <title>What a roof actually costs in the old town</title>
+    <link href="https://example.com/blog-single.html"/>
+    <id>https://example.com/blog/10</id>
+    <updated>2026-06-27T09:00:00Z</updated>
+    <published>2026-06-27T09:00:00Z</published>
+    <author><name>Marco Rizzo</name></author>
+    <category term="Renovation"/>
+    <summary>Nine completed jobs, invoices seen, from a patch repair to a full replacement with the beams out.</summary>
+  </entry>
+  <entry>
+    <title>The charge nobody mentioned</title>
+    <link href="https://example.com/blog-single.html"/>
+    <id>https://example.com/blog/11</id>
+    <updated>2026-06-19T09:00:00Z</updated>
+    <published>2026-06-19T09:00:00Z</published>
+    <author><name>Sofia Marchetti</name></author>
+    <category term="From the files"/>
+    <summary>A clean-looking apartment with an eleven-year-old community debt attached to the unit rather than the owner.</summary>
+  </entry>
+  <entry>
+    <title>Energy certificates: the letter and the bill</title>
+    <link href="https://example.com/blog-single.html"/>
+    <id>https://example.com/blog/12</id>
+    <updated>2026-06-12T09:00:00Z</updated>
+    <published>2026-06-12T09:00:00Z</published>
+    <author><name>Kasia Wrona</name></author>
+    <category term="Regulation"/>
+    <summary>We compared the rating on file with a year of real consumption for two hundred flats. The letter is a weak predictor.</summary>
+  </entry>
+</feed>

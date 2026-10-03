@@ -1,0 +1,1659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>AVAVA Homes — Style guide | Real Estate </title>
+<meta name="description" content="The AVAVA design system, rendered: every colour, size, component and rule of tone the template is built from, shown as live specimens rather than described.">
+
+<!-- Marks that scripting is on. The preloader is only ever shown under `.js`,
+     so a visitor without JavaScript never gets a covered page. This has to stay
+     in the <head> of every page, before the stylesheet. -->
+<script>
+  document.documentElement.className += ' js';
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Manrope:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    "title": "Field surveyor",
+    "identifier": {"@type": "PropertyValue", "name": "AVAVA role reference", "value": "S-01"},
+    "description": "Eleven properties a week, measured on site with a laser and drawn up the same day. You are the reason the register's areas can be trusted, and the person the owner argues with when the plan says 96 m² and the deed says 104.",
+    "datePosted": "2026-08-08",
+    "validThrough": "2026-09-30",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {"@type": "Organization", "name": "AVAVA Homes & Estates", "sameAs": "about.html"},
+    "baseSalary": {
+      "@type": "MonetaryAmount",
+      "currency": "EUR",
+      "value": {"@type": "QuantitativeValue", "minValue": 38000, "maxValue": 46000, "unitText": "YEAR"}
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {"@type": "PostalAddress", "addressLocality": "Valencia", "addressCountry": "ES"}
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    "title": "Field surveyor",
+    "identifier": {"@type": "PropertyValue", "name": "AVAVA role reference", "value": "S-02"},
+    "description": "The same job on the Douro. Half your week is in restoration stock where the plans are a hundred years old and nothing is square, which is the interesting half.",
+    "datePosted": "2026-08-08",
+    "validThrough": "2026-10-15",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {"@type": "Organization", "name": "AVAVA Homes & Estates", "sameAs": "about.html"},
+    "baseSalary": {
+      "@type": "MonetaryAmount",
+      "currency": "EUR",
+      "value": {"@type": "QuantitativeValue", "minValue": 30000, "maxValue": 36000, "unitText": "YEAR"}
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {"@type": "PostalAddress", "addressLocality": "Porto", "addressCountry": "PT"}
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    "title": "Documents officer",
+    "identifier": {"@type": "PropertyValue", "name": "AVAVA role reference", "value": "D-01"},
+    "description": "Forty deeds a week: read them, cross them against the cadastre, refuse the six that do not hold up. You will tell owners their extension has no permit more often than anyone else in the company.",
+    "datePosted": "2026-08-08",
+    "validThrough": "2026-09-30",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {"@type": "Organization", "name": "AVAVA Homes & Estates", "sameAs": "about.html"},
+    "baseSalary": {
+      "@type": "MonetaryAmount",
+      "currency": "EUR",
+      "value": {"@type": "QuantitativeValue", "minValue": 34000, "maxValue": 42000, "unitText": "YEAR"}
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {"@type": "PostalAddress", "addressLocality": "Valencia", "addressCountry": "ES"}
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    "title": "Documents officer",
+    "identifier": {"@type": "PropertyValue", "name": "AVAVA role reference", "value": "D-02"},
+    "description": "Italian historic-centre files: inherited titles, split ownership, grant paperwork. The hardest documents on the register and the ones where a careful reader saves a buyer the most money.",
+    "datePosted": "2026-08-08",
+    "validThrough": "2026-10-31",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {"@type": "Organization", "name": "AVAVA Homes & Estates", "sameAs": "about.html"},
+    "baseSalary": {
+      "@type": "MonetaryAmount",
+      "currency": "EUR",
+      "value": {"@type": "QuantitativeValue", "minValue": 28000, "maxValue": 34000, "unitText": "YEAR"}
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {"@type": "PostalAddress", "addressLocality": "Palermo", "addressCountry": "IT"}
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    "title": "Data engineer",
+    "identifier": {"@type": "PropertyValue", "name": "AVAVA role reference", "value": "E-01"},
+    "description": "The signed-price history, the per-m² medians and every figure quoted on the public site come out of your pipelines. When a number on a listing page is wrong, it is your problem before it is anyone else's.",
+    "datePosted": "2026-08-08",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {"@type": "Organization", "name": "AVAVA Homes & Estates", "sameAs": "about.html"},
+    "baseSalary": {
+      "@type": "MonetaryAmount",
+      "currency": "EUR",
+      "value": {"@type": "QuantitativeValue", "minValue": 55000, "maxValue": 70000, "unitText": "YEAR"}
+    },
+    "jobLocationType": "TELECOMMUTE",
+    "applicantLocationRequirements": {"@type": "Country", "name": "European Union"}
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    "title": "Front-end engineer",
+    "identifier": {"@type": "PropertyValue", "name": "AVAVA role reference", "value": "E-02"},
+    "description": "The listing pages, the map search and the calculators. Heavy on tables, maps and print output; light on frameworks-of-the-month. Accessibility is not a ticket at the end here.",
+    "datePosted": "2026-08-08",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {"@type": "Organization", "name": "AVAVA Homes & Estates", "sameAs": "about.html"},
+    "baseSalary": {
+      "@type": "MonetaryAmount",
+      "currency": "EUR",
+      "value": {"@type": "QuantitativeValue", "minValue": 50000, "maxValue": 64000, "unitText": "YEAR"}
+    },
+    "jobLocationType": "TELECOMMUTE",
+    "applicantLocationRequirements": {"@type": "Country", "name": "European Union"}
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    "title": "Market analyst",
+    "identifier": {"@type": "PropertyValue", "name": "AVAVA role reference", "value": "R-01"},
+    "description": "The quarterly market report and the district notes on every city sheet. You write the sentence that says what happened to prices, and you have to be able to defend it from the data.",
+    "datePosted": "2026-08-08",
+    "validThrough": "2026-11-15",
+    "employmentType": "PART_TIME",
+    "hiringOrganization": {"@type": "Organization", "name": "AVAVA Homes & Estates", "sameAs": "about.html"},
+    "baseSalary": {
+      "@type": "MonetaryAmount",
+      "currency": "EUR",
+      "value": {"@type": "QuantitativeValue", "minValue": 26000, "maxValue": 32000, "unitText": "YEAR"}
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {"@type": "PostalAddress", "addressLocality": "Nice", "addressCountry": "FR"}
+    }
+  }
+]
+</script>
+</head>
+<body class="page-inner">
+
+<div class="preloader" id="preloader" aria-hidden="true">
+  <span class="preloader__grid"></span>
+  <span class="crop crop--preloader"></span>
+  <div class="preloader__inner">
+    <p class="preloader__mark">AVAVA</p>
+    <p class="preloader__sub">Homes &amp; Estates</p>
+    <p class="preloader__bar"><span class="preloader__fill" data-preloader-fill></span></p>
+    <p class="preloader__meta">
+      <span>Loading the index</span>
+      <span class="preloader__count" data-preloader-count>00</span>
+    </p>
+  </div>
+</div>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ============================================================ HEADER -->
+<header class="site-header">
+
+  <div class="utilbar">
+    <div class="utilbar__group">
+      <span class="utilbar__live"><span class="utilbar__dot" aria-hidden="true"></span><span data-live-count>24 128</span> listings live</span>
+      <span class="utilbar__ticker" data-ticker>3 new by the lake today</span>
+    </div>
+    <div class="utilbar__group">
+      <a href="#signin" class="utilbar__link" data-open-modal="signin">Sign in</a>
+      <span class="utilbar__sep" aria-hidden="true">·</span>
+      <a href="dashboard-sell.html" class="utilbar__link">List with an agent</a>
+      <span class="utilbar__sep" aria-hidden="true">·</span>
+      <span>EN · EUR</span>
+    </div>
+  </div>
+
+  <div class="navbar">
+    <input class="sr-only nav-toggle" type="checkbox" id="nav-toggle">
+    <a class="logo" href="index.html">
+      <span class="logo__mark">AVAVA</span>
+      <span class="logo__sub">Homes &amp; Estates</span>
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <ul class="nav__list">
+
+        <li class="nav__item nav__item--has-menu">
+          <a href="index.html" class="nav__link">Home
+            <svg class="nav__caret" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9.5l6 6 6-6"></path></svg>
+          </a>
+          <div class="menu">
+            <ul class="menu__list">
+              <li><a href="index.html" class="menu__row"><span>Home 1 (index)</span><span class="menu__tag">I</span></a></li>
+              <li><a href="index-1.html" class="menu__row"><span>Home 2 (index-1)</span><span class="menu__tag">II</span></a></li>
+              <li><a href="index-2.html" class="menu__row"><span>Home 3 (index-2)</span><span class="menu__tag">III</span></a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="nav__item nav__item--has-menu">
+          <a href="about.html" class="nav__link">Pages
+            <svg class="nav__caret" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9.5l6 6 6-6"></path></svg>
+          </a>
+          <div class="menu">
+            <ul class="menu__list">
+              <li><a href="about.html" class="menu__row"><span>About Us</span></a></li>
+              <li class="menu__item--has-sub">
+                <a href="agent-list.html" class="menu__row"><span>Agents</span>
+                  <svg class="menu__caret" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9.5l6 6 6-6"></path></svg>
+                </a>
+                <div class="menu menu--sub">
+                  <ul class="menu__list">
+                    <li><a href="agent-list.html" class="menu__row"><span>Agent list</span></a></li>
+                    <li><a href="agent-detail.html" class="menu__row"><span>Agent detail</span></a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="pricing.html" class="menu__row"><span>Pricing</span></a></li>
+              <li><a href="mortgage-calculator.html" class="menu__row"><span>Mortgage calculator</span></a></li>
+              <li><a href="faq.html" class="menu__row"><span>FAQ</span></a></li>
+              <li><a href="404.html" class="menu__row"><span>404</span></a></li>
+              <li><a href="career.html" class="menu__row"><span>Career</span></a></li>
+              <li><a href="compare.html" class="menu__row"><span>Compare</span></a></li>
+              <li><a href="home-loan-process.html" class="menu__row"><span>Home Loan Process</span></a></li>
+              <li><a href="system-design.html" class="menu__row" aria-current="page"><span>Style guide</span></a></li>
+              <li><a href="create-free-agent-account.html" class="menu__row"><span>Create a free agent account</span></a></li>
+              <li class="menu__item--has-sub">
+                <button type="button" class="menu__row"><span>Blog</span>
+                  <svg class="menu__caret" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9.5l6 6 6-6"></path></svg>
+                </button>
+                <div class="menu menu--sub">
+                  <ul class="menu__list">
+                    <li><a href="blog.html" class="menu__row"><span>Blog v1</span></a></li>
+                    <li><a href="blog-v2.html" class="menu__row"><span>Blog v2</span></a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu__item--has-sub">
+                <button type="button" class="menu__row"><span>Blog single post</span>
+                  <svg class="menu__caret" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9.5l6 6 6-6"></path></svg>
+                </button>
+                <div class="menu menu--sub">
+                  <ul class="menu__list">
+                    <li><a href="blog-single.html" class="menu__row"><span>Single post v1</span></a></li>
+                    <li><a href="blog-single-v2.html" class="menu__row"><span>Single post v2</span></a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="nav__item nav__item--has-menu">
+          <a href="grid-4.html" class="nav__link">Listing
+            <svg class="nav__caret" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9.5l6 6 6-6"></path></svg>
+          </a>
+          <div class="menu menu--wide">
+            <div class="menu__col">
+              <p class="menu__col-title">Grid</p>
+              <ul class="menu__col-list">
+                <li><a href="grid-4.html" class="menu__link">Grid — 4 columns</a></li>
+                <li><a href="grid-5.html" class="menu__link">Grid — 5 columns</a></li>
+                <li><a href="grid-sidebar-3.html" class="menu__link">Grid with sidebar — 3 columns</a></li>
+                <li><a href="grid-sidebar-4.html" class="menu__link">Grid with sidebar — 4 columns</a></li>
+                <li><a href="masonry-grid.html" class="menu__link">Masonry grid</a></li>
+              </ul>
+            </div>
+            <div class="menu__col">
+              <p class="menu__col-title">List</p>
+              <ul class="menu__col-list">
+                <li><a href="list-full-width.html" class="menu__link">List — full width</a></li>
+                <li><a href="list-sidebar.html" class="menu__link">List with sidebar</a></li>
+                <li><a href="list-vertical.html" class="menu__link">Portrait cards</a></li>
+                <li><a href="compact-rows.html" class="menu__link">Compact rows</a></li>
+                <li><a href="blueprint-view.html" class="menu__link">Blueprint view</a></li>
+              </ul>
+            </div>
+            <div class="menu__col">
+              <p class="menu__col-title">Map</p>
+              <ul class="menu__col-list">
+                <li><a href="map-list.html" class="menu__link">Map listing</a></li>
+                <li><a href="half-map.html" class="menu__link">Half map</a></li>
+                <li><a href="map-drawer.html" class="menu__link">Map with drawer</a></li>
+                <li><a href="top-map.html" class="menu__link">Map on top</a></li>
+                <li><a href="listing-switcher.html" class="menu__link">Three views</a></li>
+                <li><a href="search-workspace.html" class="menu__link">Search workspace</a></li>
+              </ul>
+            </div>
+            <div class="menu__foot">
+              <span>14 listing layouts included</span>
+              <a href="#" class="menu__foot-link">Browse all templates →</a>
+            </div>
+          </div>
+        </li>
+
+        <!-- Two columns, not the old flat list. The US/EU tags are load
+             bearing: several rows exist in one market only, and a few are
+             the same product under a different name. Both markets ship. -->
+        <li class="nav__item nav__item--has-menu">
+          <a href="all-properties.html" class="nav__link">Properties
+            <svg class="nav__caret" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9.5l6 6 6-6"></path></svg>
+          </a>
+          <div class="menu menu--two menu--props">
+              <div class="menu__col">
+                <p class="menu__col-title">Home detail</p>
+                <ul class="menu__col-list">
+                  <li><a href="property-detail-v1.html" class="menu__link"><span>Home detail v1</span></a></li>
+                  <li><a href="property-detail-v2.html" class="menu__link"><span>Home detail v2</span></a></li>
+                  <li><a href="property-detail-v3.html" class="menu__link"><span>Home detail v3</span></a></li>
+                  <li><a href="property-detail-v4.html" class="menu__link"><span>Home detail v4</span></a></li>
+                  <li><a href="property-detail-v5.html" class="menu__link"><span>Home detail v5</span></a></li>
+                </ul>
+              </div>
+              <div class="menu__col">
+                <p class="menu__col-title">By status</p>
+                <ul class="menu__col-list">
+                  <li><a href="properties-for-sale.html" class="menu__link"><span>Homes for sale</span></a></li>
+                  <li><a href="new-builds.html" class="menu__link"><span>New builds</span></a></li>
+                  <li><a href="coming-soon.html" class="menu__link"><span>Coming soon</span></a></li>
+                  <li><a href="recently-sold.html" class="menu__link"><span>Recently sold</span></a></li>
+                  <li><a href="for-rent.html" class="menu__link"><span>For rent</span></a></li>
+                  <li><a href="land-plots.html" class="menu__link"><span>Land &amp; plots</span></a></li>
+                  <li><a href="commercial.html" class="menu__link"><span>Commercial</span></a></li>
+                  <li><a href="all-properties.html" class="menu__link"><span>All properties</span></a></li>
+                </ul>
+              </div>
+          </div>
+        </li>
+
+        <li class="nav__item nav__item--has-menu">
+          <a href="dashboard-user.html" class="nav__link">Dashboard
+            <svg class="nav__caret" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9.5l6 6 6-6"></path></svg>
+          </a>
+          <div class="menu menu--dash">
+            <ul class="menu__list">
+              <li class="menu__item--has-sub">
+                <a href="dashboard-user.html" class="menu__row"><span>User dashboard</span>
+                  <svg class="menu__caret" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9.5l6 6 6-6"></path></svg>
+                </a>
+                <!-- Opens leftward: Dashboard sits at the right end of the
+                     bar and a rightward panel would fall off the page. -->
+                <div class="menu menu--sub menu--sub-left">
+                  <ul class="menu__list">
+                    <li><a href="dashboard-user.html" class="menu__row"><span>Overview</span></a></li>
+                    <li><a href="dashboard-saved.html" class="menu__row"><span>Saved properties</span></a></li>
+                    <li><a href="dashboard-searches.html" class="menu__row"><span>Saved searches</span></a></li>
+                    <li><a href="dashboard-viewings.html" class="menu__row"><span>Viewing requests</span></a></li>
+                    <li><a href="dashboard-alerts.html" class="menu__row"><span>Price alerts</span></a></li>
+                    <li><a href="dashboard-messages.html" class="menu__row"><span>Messages</span></a></li>
+                    <li><a href="dashboard-documents.html" class="menu__row"><span>Documents</span></a></li>
+                    <li><a href="dashboard-sell.html" class="menu__row"><span>Sell my home</span></a></li>
+                    <li><a href="dashboard-profile.html" class="menu__row"><span>Profile &amp; settings</span></a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu__item--has-sub">
+                <a href="dashboard-agent.html" class="menu__row"><span>Agent dashboard</span>
+                  <svg class="menu__caret" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9.5l6 6 6-6"></path></svg>
+                </a>
+                <!-- Opens leftward: Dashboard sits at the right end of the
+                     bar and a rightward panel would fall off the page. -->
+                <div class="menu menu--sub menu--sub-left">
+                  <ul class="menu__list">
+                    <li><a href="dashboard-agent.html" class="menu__row"><span>Overview</span></a></li>
+                    <li><a href="dashboard-listings.html" class="menu__row"><span>My listings</span></a></li>
+                    <li><a href="dashboard-add-property.html" class="menu__row"><span>Add property</span></a></li>
+                    <li><a href="#" class="menu__row"><span>Leads &amp; enquiries</span></a></li>
+                    <li><a href="dashboard-offers.html" class="menu__row"><span>Offers</span></a></li>
+                    <li><a href="dashboard-agent-viewings.html" class="menu__row"><span>Viewings calendar</span></a></li>
+                    <li><a href="#" class="menu__row"><span>Invoices &amp; plan</span></a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="nav__item">
+          <a href="contacts.html" class="nav__link nav__link--plain">Contacts</a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <div class="navbar__actions">
+      <label class="burger" for="nav-toggle" title="Menu">
+        <span class="burger__box" aria-hidden="true"></span>
+        <span class="sr-only">Open the menu</span>
+      </label>
+      <a class="navbar__account" href="dashboard-profile.html">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.6"></circle><path d="M5.5 19.2a6.5 6.5 0 0 1 13 0"></path></svg>
+        <span class="sr-only">Your account</span>
+      </a>
+      <a class="btn btn--accent btn--add" href="dashboard-sell.html"><span class="btn__plus" aria-hidden="true">+</span><span>Add Property</span></a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+
+  <!-- ========================================================== PAGE HEADER -->
+  <section class="pagehead" aria-labelledby="page-title">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li>Pages</li>
+        <li aria-current="page">Style guide</li>
+      </ol>
+    </nav>
+
+    <div class="pagehead__band">
+      <p class="pagehead__mark" aria-hidden="true">AVAVA</p>
+      <div class="pagehead__row">
+        <div class="pagehead__lead">
+          <h1 class="pagehead__title" id="page-title">The language, <em>written down.</em></h1>
+          <p class="pagehead__sub">Every colour, size, component and rule of tone this template is built from — shown as the real thing, not described.</p>
+        </div>
+        <ul class="pagehead__stats">
+          <li><span class="pagehead__stat-value">38</span><span class="pagehead__stat-label">Cities</span></li>
+          <li><span class="pagehead__stat-value">24 128</span><span class="pagehead__stat-label">Listings</span></li>
+          <li><span class="pagehead__stat-value">1 940</span><span class="pagehead__stat-label">Agents</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="sgpage">
+    <div class="sgwrap">
+      <section class="sgsec" aria-labelledby="sg-colour">
+        <h2 class="sr-only" id="sg-colour">01 / Colour</h2>
+        <div class="sgrule">
+          <span class="sgrule__left"><span>01 / Colour</span><span class="sgrule__dash" aria-hidden="true"></span></span>
+          <span class="sgrule__note">every value used on the site, and where</span>
+        </div>
+        <ul class="sgswatches">
+            <li class="sgswatch">
+              <span class="sgswatch__chip sgswatch__chip--0" aria-hidden="true"></span>
+              <span class="sgswatch__text">
+                <span class="sgswatch__name">Background</span>
+                <span class="sgswatch__value">#100f0c</span>
+                <span class="sgswatch__use">The page. Also the text colour on gold buttons.</span>
+              </span>
+            </li>
+            <li class="sgswatch">
+              <span class="sgswatch__chip sgswatch__chip--1" aria-hidden="true"></span>
+              <span class="sgswatch__text">
+                <span class="sgswatch__name">Ink</span>
+                <span class="sgswatch__value">#ece5d8</span>
+                <span class="sgswatch__use">Primary text, on panels and on the page.</span>
+              </span>
+            </li>
+            <li class="sgswatch">
+              <span class="sgswatch__chip sgswatch__chip--2" aria-hidden="true"></span>
+              <span class="sgswatch__text">
+                <span class="sgswatch__name">Accent</span>
+                <span class="sgswatch__value">#d9a04a</span>
+                <span class="sgswatch__use">Labels, active state, figures that matter, primary buttons.</span>
+              </span>
+            </li>
+            <li class="sgswatch">
+              <span class="sgswatch__chip sgswatch__chip--3" aria-hidden="true"></span>
+              <span class="sgswatch__text">
+                <span class="sgswatch__name">Positive</span>
+                <span class="sgswatch__value">#7ea36a</span>
+                <span class="sgswatch__use">Verified, complete, cheaper, on time.</span>
+              </span>
+            </li>
+            <li class="sgswatch">
+              <span class="sgswatch__chip sgswatch__chip--4" aria-hidden="true"></span>
+              <span class="sgswatch__text">
+                <span class="sgswatch__name">Warning</span>
+                <span class="sgswatch__value">#c8763f</span>
+                <span class="sgswatch__use">Overdue, missing, above market, restricted.</span>
+              </span>
+            </li>
+            <li class="sgswatch">
+              <span class="sgswatch__chip sgswatch__chip--5" aria-hidden="true"></span>
+              <span class="sgswatch__text">
+                <span class="sgswatch__name">Footer</span>
+                <span class="sgswatch__value">#0a0908</span>
+                <span class="sgswatch__use">The footer band. Fixed on every page.</span>
+              </span>
+            </li>
+            <li class="sgswatch">
+              <span class="sgswatch__chip sgswatch__chip--6" aria-hidden="true"></span>
+              <span class="sgswatch__text">
+                <span class="sgswatch__name">Panel</span>
+                <span class="sgswatch__value">rgba(24,22,18,0.92)</span>
+                <span class="sgswatch__use">Standard bordered panel.</span>
+              </span>
+            </li>
+            <li class="sgswatch">
+              <span class="sgswatch__chip sgswatch__chip--7" aria-hidden="true"></span>
+              <span class="sgswatch__text">
+                <span class="sgswatch__name">Panel solid</span>
+                <span class="sgswatch__value">rgba(24,22,18,0.96)</span>
+                <span class="sgswatch__use">Cards inside a 1px-gap grid.</span>
+              </span>
+            </li>
+            <li class="sgswatch">
+              <span class="sgswatch__chip sgswatch__chip--8" aria-hidden="true"></span>
+              <span class="sgswatch__text">
+                <span class="sgswatch__name">Panel hover</span>
+                <span class="sgswatch__value">rgba(34,31,25,0.98)</span>
+                <span class="sgswatch__use">A card under the pointer.</span>
+              </span>
+            </li>
+            <li class="sgswatch">
+              <span class="sgswatch__chip sgswatch__chip--9" aria-hidden="true"></span>
+              <span class="sgswatch__text">
+                <span class="sgswatch__name">Field</span>
+                <span class="sgswatch__value">rgba(16,15,12,0.5)</span>
+                <span class="sgswatch__use">Inputs and textareas.</span>
+              </span>
+            </li>
+            <li class="sgswatch">
+              <span class="sgswatch__chip sgswatch__chip--10" aria-hidden="true"></span>
+              <span class="sgswatch__text">
+                <span class="sgswatch__name">Accent hover</span>
+                <span class="sgswatch__value">#e8b563</span>
+                <span class="sgswatch__use">Gold button under the pointer.</span>
+              </span>
+            </li>
+            <li class="sgswatch">
+              <span class="sgswatch__chip sgswatch__chip--11" aria-hidden="true"></span>
+              <span class="sgswatch__text">
+                <span class="sgswatch__name">Negative</span>
+                <span class="sgswatch__value">#c4573c</span>
+                <span class="sgswatch__use">Costs more, sign out, close account.</span>
+              </span>
+            </li>
+        </ul>
+
+        <div class="sgladders">
+          <div class="sgladder">
+            <p class="sgsub">The ink ladder<span class="sgsub__note">rgba(236,229,216, α)</span></p>
+            <ul class="sgsteps">
+            <li class="sgstep">
+              <span class="sgstep__bar sgstep__bar--l0" aria-hidden="true"></span>
+              <span class="sgstep__alpha">0.09</span>
+              <span class="sgstep__use">Table row dividers</span>
+            </li>
+            <li class="sgstep">
+              <span class="sgstep__bar sgstep__bar--l1" aria-hidden="true"></span>
+              <span class="sgstep__alpha">0.14</span>
+              <span class="sgstep__use">Section rules, inner panel rules</span>
+            </li>
+            <li class="sgstep">
+              <span class="sgstep__bar sgstep__bar--l2" aria-hidden="true"></span>
+              <span class="sgstep__alpha">0.16</span>
+              <span class="sgstep__use">Grid gaps, note-box borders</span>
+            </li>
+            <li class="sgstep">
+              <span class="sgstep__bar sgstep__bar--l3" aria-hidden="true"></span>
+              <span class="sgstep__alpha">0.2</span>
+              <span class="sgstep__use">Panel borders, input borders</span>
+            </li>
+            <li class="sgstep">
+              <span class="sgstep__bar sgstep__bar--l4" aria-hidden="true"></span>
+              <span class="sgstep__alpha">0.28</span>
+              <span class="sgstep__use">Outline buttons</span>
+            </li>
+            <li class="sgstep">
+              <span class="sgstep__bar sgstep__bar--l5" aria-hidden="true"></span>
+              <span class="sgstep__alpha">0.4</span>
+              <span class="sgstep__use">Micro labels, sheet codes</span>
+            </li>
+            <li class="sgstep">
+              <span class="sgstep__bar sgstep__bar--l6" aria-hidden="true"></span>
+              <span class="sgstep__alpha">0.5</span>
+              <span class="sgstep__use">Secondary meta, sub-labels</span>
+            </li>
+            <li class="sgstep">
+              <span class="sgstep__bar sgstep__bar--l7" aria-hidden="true"></span>
+              <span class="sgstep__alpha">0.6</span>
+              <span class="sgstep__use">Table cells, body values</span>
+            </li>
+            <li class="sgstep">
+              <span class="sgstep__bar sgstep__bar--l8" aria-hidden="true"></span>
+              <span class="sgstep__alpha">0.72</span>
+              <span class="sgstep__use">List labels, quiet body</span>
+            </li>
+            </ul>
+            <p class="sgwhy">Use these steps and no others. An in-between value is always a mistake — nine steps cover everything on the site.</p>
+          </div>
+          <div class="sgladder">
+            <p class="sgsub">Accent washes<span class="sgsub__note">rgba(217,160,74, α)</span></p>
+            <ul class="sgsteps">
+            <li class="sgstep">
+              <span class="sgstep__bar sgstep__bar--w0" aria-hidden="true"></span>
+              <span class="sgstep__alpha">0.06</span>
+              <span class="sgstep__use">Table row hover</span>
+            </li>
+            <li class="sgstep">
+              <span class="sgstep__bar sgstep__bar--w1" aria-hidden="true"></span>
+              <span class="sgstep__alpha">0.08</span>
+              <span class="sgstep__use">Selected row in a picker</span>
+            </li>
+            <li class="sgstep">
+              <span class="sgstep__bar sgstep__bar--w2" aria-hidden="true"></span>
+              <span class="sgstep__alpha">0.10</span>
+              <span class="sgstep__use">Callout panel, the one that matters</span>
+            </li>
+            <li class="sgstep">
+              <span class="sgstep__bar sgstep__bar--w3" aria-hidden="true"></span>
+              <span class="sgstep__alpha">0.14</span>
+              <span class="sgstep__use">Active chip fill</span>
+            </li>
+            <li class="sgstep">
+              <span class="sgstep__bar sgstep__bar--w4" aria-hidden="true"></span>
+              <span class="sgstep__alpha">0.55</span>
+              <span class="sgstep__use">Active chip border</span>
+            </li>
+            <li class="sgstep">
+              <span class="sgstep__bar sgstep__bar--w5" aria-hidden="true"></span>
+              <span class="sgstep__alpha">0.92</span>
+              <span class="sgstep__use">Badge fill over a photograph</span>
+            </li>
+            </ul>
+            <p class="sgsub">What the three signal colours mean</p>
+            <p class="sgwhy"><span class="sgsig sgsig--green">Green</span> is always better for the person reading.<span class="sgsig sgsig--gold">Gold</span> is the thing to look at.<span class="sgsig sgsig--orange">Orange</span> is a cost, a delay or a gap. Never colour something green because it is large.</p>
+          </div>
+        </div>
+      </section>
+      <section class="sgsec" aria-labelledby="sg-type">
+        <h2 class="sr-only" id="sg-type">02 / Typography</h2>
+        <div class="sgrule">
+          <span class="sgrule__left"><span>02 / Typography</span><span class="sgrule__dash" aria-hidden="true"></span></span>
+          <span class="sgrule__note">three families, no others</span>
+        </div>
+        <div class="sgtypo">
+          <ul class="sgfams">
+            <li class="sgfam">
+              <span class="sgfam__label">Headings and figures</span>
+              <span class="sgfam__name sgfam__name--heading">Instrument Serif</span>
+              <span class="sgfam__use">Weight 400 only. Every heading, and every number presented as data — prices, areas, counts, days.</span>
+            </li>
+            <li class="sgfam">
+              <span class="sgfam__label">Everything else</span>
+              <span class="sgfam__name sgfam__name--ui">Manrope</span>
+              <span class="sgfam__use">300 for body, 400 for labels and values, 500 for nav, 600 for buttons. No 700.</span>
+            </li>
+            <li class="sgfam">
+              <span class="sgfam__label">The wordmark only</span>
+              <span class="sgfam__name sgfam__name--wordmark">AVAVA</span>
+              <span class="sgfam__use">Outline, never filled. -webkit-text-stroke: 1.2px #d9a04a in the header, 1px at 0.09 ink for the watermark.</span>
+            </li>
+          </ul>
+          <div class="sgpanel sgpanel--scale">
+            <ul class="sgrows">
+            <li class="sgrow">
+              <span class="sgrow__left"><span class="sgrow__role">Page heading — h1</span><span class="sgrow__meta">clamp(38px, 3.4vw, 58px) · Instrument Serif · line-height 1</span></span>
+              <span class="sgrow__sample sgrow__sample--0">Land, with the<br><em>zoning attached.</em></span>
+            </li>
+            <li class="sgrow">
+              <span class="sgrow__left"><span class="sgrow__role">The payoff figure</span><span class="sgrow__meta">42px · Instrument Serif · accent</span></span>
+              <span class="sgrow__sample sgrow__sample--1">€1 225 112</span>
+            </li>
+            <li class="sgrow">
+              <span class="sgrow__left"><span class="sgrow__role">Stat value</span><span class="sgrow__meta">32px · Instrument Serif</span></span>
+              <span class="sgrow__sample sgrow__sample--2">€28.4M</span>
+            </li>
+            <li class="sgrow">
+              <span class="sgrow__left"><span class="sgrow__role">Section h2</span><span class="sgrow__meta">30px · Instrument Serif</span></span>
+              <span class="sgrow__sample sgrow__sample--3">What a two-bed costs where</span>
+            </li>
+            <li class="sgrow">
+              <span class="sgrow__left"><span class="sgrow__role">Card title</span><span class="sgrow__meta">19px · Instrument Serif · line-height 1.14</span></span>
+              <span class="sgrow__sample sgrow__sample--4">Rua do Século 118, 3rd</span>
+            </li>
+            <li class="sgrow">
+              <span class="sgrow__left"><span class="sgrow__role">Table figure</span><span class="sgrow__meta">17px · Instrument Serif</span></span>
+              <span class="sgrow__sample sgrow__sample--5">€985 000</span>
+            </li>
+            <li class="sgrow">
+              <span class="sgrow__left"><span class="sgrow__role">Section label</span><span class="sgrow__meta">12px · Manrope 400 · 0.22em upper <span class="sgrow__lift">floor</span></span></span>
+              <span class="sgrow__sample sgrow__sample--6">01 / Register</span>
+            </li>
+            <li class="sgrow">
+              <span class="sgrow__left"><span class="sgrow__role">Field label</span><span class="sgrow__meta">12px · Manrope 400 · 0.22em upper <span class="sgrow__lift">floor</span></span></span>
+              <span class="sgrow__sample sgrow__sample--7">Monthly ceiling</span>
+            </li>
+            <li class="sgrow">
+              <span class="sgrow__left"><span class="sgrow__role">Badge</span><span class="sgrow__meta">12px · Manrope 400 · 0.16em upper <span class="sgrow__lift">floor</span></span></span>
+              <span class="sgrow__sample sgrow__sample--8">Zoning certified</span>
+            </li>
+            <li class="sgrow">
+              <span class="sgrow__left"><span class="sgrow__role">Button</span><span class="sgrow__meta">12px · Manrope 600 · 0.16em upper <span class="sgrow__lift">floor</span></span></span>
+              <span class="sgrow__sample sgrow__sample--9">Open the file</span>
+            </li>
+            <li class="sgrow">
+              <span class="sgrow__left"><span class="sgrow__role">Body</span><span class="sgrow__meta">13px · Manrope 300 · line-height 1.65</span></span>
+              <span class="sgrow__sample sgrow__sample--10">Ninety-six square metres measured on site — four under the previous listing and eight under the deed.</span>
+            </li>
+            <li class="sgrow">
+              <span class="sgrow__left"><span class="sgrow__role">Note</span><span class="sgrow__meta">12px · Manrope 300 · ink 0.45 <span class="sgrow__lift">floor</span></span></span>
+              <span class="sgrow__sample sgrow__sample--11">Released to any buyer who asks — before an offer, not after.</span>
+            </li>
+            </ul>
+            <p class="sgtypo__foot">Nothing goes below 8px, and 8px is reserved for uppercase tracked labels. Body copy never below 11px. Uppercase always carries tracking — 0.1em at the tightest, 0.22em for labels. The 5 rows marked "floor" ship at 12px rather than the 8 and 10 named here: Envato rejects type below 12, so the template raised its floor and this guide follows the template.</p>
+          </div>
+        </div>
+      </section>
+      <section class="sgsec" aria-labelledby="sg-geometry">
+        <h2 class="sr-only" id="sg-geometry">03 / Spacing and geometry</h2>
+        <div class="sgrule">
+          <span class="sgrule__left"><span>03 / Spacing and geometry</span><span class="sgrule__dash" aria-hidden="true"></span></span>
+          <span class="sgrule__note">the rules that make pages feel the same</span>
+        </div>
+        <div class="sgcols">
+          <div class="sgcol">
+            <p class="sgsub">The measurements</p>
+            <ul class="sgpairs">
+            <li class="sgpair"><span class="sgpair__key">Page gutter</span><span class="sgpair__val">clamp(28px, 3.2vw, 56px)</span></li>
+            <li class="sgpair"><span class="sgpair__key">Between sections</span><span class="sgpair__val">clamp(26px, 3.4vh, 38px)</span></li>
+            <li class="sgpair"><span class="sgpair__key">Panel padding</span><span class="sgpair__val">22–28px</span></li>
+            <li class="sgpair"><span class="sgpair__key">Table row</span><span class="sgpair__val">14–15px 20px</span></li>
+            <li class="sgpair"><span class="sgpair__key">Table header</span><span class="sgpair__val">12px 20px</span></li>
+            <li class="sgpair"><span class="sgpair__key">Column gap</span><span class="sgpair__val">clamp(20px, 2.2vw, 30px)</span></li>
+            <li class="sgpair"><span class="sgpair__key">Dashboard rail</span><span class="sgpair__val">236px</span></li>
+            </ul>
+          </div>
+          <div class="sgcol">
+            <p class="sgsub">Border radius: 0</p>
+            <p class="sgshapes" aria-hidden="true"><span class="sgshape sgshape--gold"></span><span class="sgshape sgshape--ink"></span><span class="sgshape sgshape--round">AB</span></p>
+            <p class="sgwhy">Square, everywhere. The only round things on the site are avatars, status dots and the timeline dots — where roundness means "a person" or "a point in time", never decoration.</p>
+            <p class="sgsub">No shadows</p>
+            <p class="sgwhy">One exception on the whole site: the nav dropdown. Depth comes from hairlines and panel tints, not blur.</p>
+          </div>
+          <div class="sgcol">
+            <p class="sgsub">Motion</p>
+            <p class="sgwhy">0.2s ease on hovers and state changes. 0.42s cubic-bezier(0.22, 0.61, 0.36, 1) for anything that changes size, like the gallery accordion.</p>
+            <p class="sgwhy">Nothing animates on entry. No fades, no slide-ins, no counting numbers. A page is either drawn or it is not.</p>
+            <p class="sgsub">Reduced motion</p>
+            <p class="sgwhy">prefers-reduced-motion drops every transition to 0s. Behaviour stays, animation goes.</p>
+          </div>
+        </div>
+      </section>
+      <section class="sgsec" aria-labelledby="sg-motifs">
+        <h2 class="sr-only" id="sg-motifs">04 / The drawing-sheet motifs</h2>
+        <div class="sgrule">
+          <span class="sgrule__left"><span>04 / The drawing-sheet motifs</span><span class="sgrule__dash" aria-hidden="true"></span></span>
+          <span class="sgrule__note">what makes it look like AVAVA and not a portal</span>
+        </div>
+        <ul class="sgmotifs">
+            <li class="sgmotif">
+              <span class="sgmotif__demo sgmotif__demo--grid"></span>
+              <span class="sgmotif__name">Blueprint grid</span>
+              <span class="sgmotif__why">rgba(236,229,216,0.045) hairlines at 26–36px. Behind drawings and card photographs, never behind text.</span>
+            </li>
+            <li class="sgmotif">
+              <span class="sgmotif__demo sgmotif__demo--crop"><span class="sgcrop sgcrop--tl" aria-hidden="true"></span><span class="sgcrop sgcrop--tr" aria-hidden="true"></span><span class="sgcrop sgcrop--bl" aria-hidden="true"></span><span class="sgcrop sgcrop--br" aria-hidden="true"></span></span>
+              <span class="sgmotif__name">Crop marks</span>
+              <span class="sgmotif__why">Four 16px corner brackets, 1px gold at 0.6, inset 14px. Only on hero drawings and featured sheets.</span>
+            </li>
+            <li class="sgmotif">
+              <span class="sgmotif__demo sgmotif__demo--veil"></span>
+              <span class="sgmotif__name">The veil hatch</span>
+              <span class="sgmotif__why">Means "nobody has been inside" or "not published yet". Data-driven — never decorative.</span>
+            </li>
+            <li class="sgmotif">
+              <span class="sgmotif__demo sgmotif__demo--gold"><span class="sgplot" aria-hidden="true"></span></span>
+              <span class="sgmotif__name">Plot and footprint</span>
+              <span class="sgmotif__why">Dashed boundary, gold hatch fill. The block is sized by sqrt(coverage) — it is a plan, not a bar.</span>
+            </li>
+        </ul>
+        <div class="sgcols sgcols--pair sgcols--panels">
+          <div class="sgcol">
+            <p class="sgsub">The sheet strip</p>
+            <span class="sgmotif__demo sgmotif__demo--strip"><span class="sgstrip"><span>Riba Nova · Phase II</span><span>Render 1:200</span><span class="sgstrip__last">EU · Off-plan</span></span></span>
+            <p class="sgwhy">Three items under a drawing, hairline above, last one gold. Identity, scale, status — in that order.</p>
+          </div>
+          <div class="sgcol">
+            <p class="sgsub">The shared hairline</p>
+            <span class="sgmotif__demo sgmotif__demo--hair"><span class="sghair" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></span></span>
+            <p class="sgwhy">Card grids never border their cards. The grid gets gap: 1px over a 0.16 background inside a matching border, and the cards paint solid. One hairline per edge, none doubled at the intersections.</p>
+          </div>
+        </div>
+      </section>
+      <section class="sgsec" aria-labelledby="sg-buttons">
+        <h2 class="sr-only" id="sg-buttons">05 / Buttons</h2>
+        <div class="sgrule">
+          <span class="sgrule__left"><span>05 / Buttons</span><span class="sgrule__dash" aria-hidden="true"></span></span>
+          <span class="sgrule__note">four kinds, and that is all</span>
+        </div>
+        <div class="sgpanel">
+          <ul class="sgbtns">
+            <li class="sgbtn">
+              <span class="sgbtn__name">Primary</span>
+              <button type="button" class="sgb sgb--primary">Open the file</button>
+              <span class="sgbtn__why">Hover → #e8b563</span>
+            </li>
+            <li class="sgbtn">
+              <span class="sgbtn__name">Outline</span>
+              <button type="button" class="sgb sgb--outline">Book a viewing</button>
+              <span class="sgbtn__why">Hover → gold border and text</span>
+            </li>
+            <li class="sgbtn">
+              <span class="sgbtn__name">Small, in a row</span>
+              <button type="button" class="sgb sgb--small">Send report</button>
+              <span class="sgbtn__why">Inside table rows and lists</span>
+            </li>
+            <li class="sgbtn">
+              <span class="sgbtn__name">Destructive</span>
+              <button type="button" class="sgb sgb--destructive">Close account</button>
+              <span class="sgbtn__why">Never filled, never the default focus</span>
+            </li>
+            <li class="sgbtn">
+              <span class="sgbtn__name">Done state</span>
+              <button type="button" class="sgb sgb--done" disabled>Sent</button>
+              <span class="sgbtn__why">An action that has been taken</span>
+            </li>
+            <li class="sgbtn">
+              <span class="sgbtn__name">Text link</span>
+              <button type="button" class="sgb sgb--link">All properties →</button>
+              <span class="sgbtn__why">Always ends with →, always gold</span>
+            </li>
+          </ul>
+          <p class="sgwhy sgwhy--rule">One primary button per view. If two things look equally important, neither is. Labels say what happens — "Book a viewing", not "Submit"; "Send the owner this case", not "Confirm".</p>
+        </div>
+      </section>
+      <section class="sgsec" aria-labelledby="sg-chips">
+        <h2 class="sr-only" id="sg-chips">06 / Chips, badges and pills</h2>
+        <div class="sgrule">
+          <span class="sgrule__left"><span>06 / Chips, badges and pills</span><span class="sgrule__dash" aria-hidden="true"></span></span>
+          <span class="sgrule__note">the same shape doing three different jobs</span>
+        </div>
+        <div class="sgcols sgcols--g14">
+          <div class="sgcol">
+            <p class="sgsub">Filter chips<span class="sgsub__note">selectable</span></p>
+            <div class="sgrowset">
+              <button type="button" class="sgchip is-on">All plots<span class="sgchip__n">506</span></button>
+              <button type="button" class="sgchip">Urban<span class="sgchip__n">214</span></button>
+              <button type="button" class="sgchip">Rural<span class="sgchip__n">154</span></button>
+            </div>
+            <p class="sgwhy">Counts derive from the data, never authored. Chips carrying numbers drop to 0.08em tracking and sentence case.</p>
+          </div>
+          <div class="sgcol">
+            <p class="sgsub">Status pills<span class="sgsub__note">read-only</span></p>
+            <div class="sgrowset">
+              <span class="sgpill sgpill--positive">Clear</span>
+              <span class="sgpill sgpill--accent">Condition</span>
+              <span class="sgpill sgpill--warn">Restricted</span>
+              <span class="sgpill sgpill--ink">Registered</span>
+            </div>
+            <p class="sgwhy">Border and text share one colour. Pills are never filled — a filled pill is a badge.</p>
+          </div>
+          <div class="sgcol">
+            <p class="sgsub">Badges<span class="sgsub__note">over photographs</span></p>
+            <div class="sgrowset">
+              <span class="sgbadge sgbadge--0">Available now</span>
+              <span class="sgbadge sgbadge--1">Ready</span>
+              <span class="sgbadge sgbadge--2">Furnished</span>
+            </div>
+            <p class="sgwhy">Flush to the top-left corner with no inset, or inset 10px at the top-right. Dark text on the coloured fills.</p>
+          </div>
+        </div>
+      </section>
+      <section class="sgsec" aria-labelledby="sg-form">
+        <h2 class="sr-only" id="sg-form">07 / Form controls</h2>
+        <div class="sgrule">
+          <span class="sgrule__left"><span>07 / Form controls</span><span class="sgrule__dash" aria-hidden="true"></span></span>
+          <span class="sgrule__note">inputs, switches, sliders</span>
+        </div>
+        <div class="sgcols sgcols--roomy sgcols--g18 sgcols--wide3">
+          <div class="sgcol">
+            <label class="sgfield"><span class="sgfield__label">Text field</span><input class="sgin" type="text" value="Rua da Esperança 84" spellcheck="false"></label>
+            <label class="sgfield"><span class="sgfield__label">Empty, with placeholder</span><input class="sgin" type="text" placeholder="0000-000" spellcheck="false"></label>
+            <label class="sgfield"><span class="sgfield__label">Disabled — waiting on something</span><input class="sgin" type="text" placeholder="Survey not done yet" disabled spellcheck="false"></label>
+            <p class="sgwhy">Focus turns the border gold. Every field carries an 8px uppercase label above it with an 8px gap. Errors go under the field at 11px in orange, one sentence, saying what to do.</p>
+          </div>
+          <div class="sgcol">
+            <p class="sgsub">Toggle</p>
+            <div class="sgrowset">
+              <button type="button" class="sgtog is-on" aria-pressed="true"><span class="sgtog__knob" aria-hidden="true"></span><span class="sr-only">On</span></button>
+              <button type="button" class="sgtog" aria-pressed="false"><span class="sgtog__knob" aria-hidden="true"></span><span class="sr-only">Off</span></button>
+            </div>
+            <p class="sgwhy">A square knob in a square track. 40×21 standard, 30×17 inside a matrix. No pill, no radius.</p>
+            <p class="sgsub sgsub--gap">Segmented</p>
+            <div class="sgseg">
+              <button type="button" class="sgseg__b is-on" aria-pressed="true">EU</button>
+              <button type="button" class="sgseg__b" aria-pressed="false">US</button>
+            </div>
+            <p class="sgwhy">One box, inner dividers at 0.14. Two to four options; more than four is a chip row.</p>
+          </div>
+          <div class="sgcol">
+            <p class="sgsub">Range</p>
+            <input class="sgrange" type="range" min="0" max="12" value="4" aria-label="Asking">
+            <p class="sgends"><span>Asking</span><span>−12%</span></p>
+            <p class="sgwhy">accent-color: #d9a04a, native track. Always labelled at both ends, and always paired with the figure it produces at 26–42px above it.</p>
+            <p class="sgsub sgsub--gap">Radio row</p>
+            <p class="sgradios"><label class="sgradio"><input type="radio" name="sg-how" checked><span>With an agent</span></label><label class="sgradio"><input type="radio" name="sg-how"><span>Alone</span></label></p>
+          </div>
+        </div>
+      </section>
+      <section class="sgsec" aria-labelledby="sg-panels">
+        <h2 class="sr-only" id="sg-panels">08 / Panels, cards and tables</h2>
+        <div class="sgrule">
+          <span class="sgrule__left"><span>08 / Panels, cards and tables</span><span class="sgrule__dash" aria-hidden="true"></span></span>
+          <span class="sgrule__note">the three containers everything lives in</span>
+        </div>
+        <div class="sgcols sgcols--card">
+          <div class="sgcol">
+            <article class="sgcard">
+              <span class="sgcard__media"><span class="sgbadge sgbadge--0 sgcard__badge sgcard__badge--0">Available now</span><span class="sgbadge sgbadge--2 sgcard__badge sgcard__badge--1">Furnished</span></span>
+              <span class="sgcard__body">
+                <span class="sgcard__kind">LET-0141</span>
+                <span class="sgcard__title">Rua da Cintura 3</span>
+                <span class="sgcard__meta">Alcântara · Studio · 38 m²</span>
+                <span class="sgcard__money"><span class="sgcard__price">€780</span><span class="sgcard__per">/ month</span></span>
+                <span class="sgcard__allin">€917 all in, charges and bills included</span>
+                <span class="sgcard__tags"><span class="sgcard__tag">Pets ok</span><span class="sgcard__tag">Lift</span><span class="sgcard__tag">12 mo min</span></span>
+              </span>
+              <span class="sgcard__foot">14 enquiries this week</span>
+            </article>
+          </div>
+
+          <div class="sgcol">
+            <table class="sgtable">
+              <thead>
+                <tr><th scope="col">District</th><th scope="col" class="sgtd--num">Two bed</th><th scope="col" class="sgtd--num">Per m²</th><th scope="col">Supply</th></tr>
+              </thead>
+              <tbody>
+              <tr class="sgtr">
+                <td><span class="sgtr__t">Alcântara</span><span class="sgtr__p">Lisbon</span></td>
+                <td class="sgtd--num">€1 320</td>
+                <td class="sgtd--num">€17.4</td>
+                <td><span class="sgpill sgpill--positive">Good</span></td>
+              </tr>
+              <tr class="sgtr is-hover">
+                <td><span class="sgtr__t">Estrela</span><span class="sgtr__p">Lisbon · row hover</span></td>
+                <td class="sgtd--num">€1 480</td>
+                <td class="sgtd--num">€19.8</td>
+                <td><span class="sgpill sgpill--accent">Tight</span></td>
+              </tr>
+              <tr class="sgtr">
+                <td><span class="sgtr__t">Ruzafa</span><span class="sgtr__p">Valencia</span></td>
+                <td class="sgtd--num">€960</td>
+                <td class="sgtd--num">€11.8</td>
+                <td><span class="sgpill sgpill--warn">Very tight</span></td>
+              </tr>
+              </tbody>
+            </table>
+            <p class="sgtfoot"><span>Median asking rent · service charges excluded</span><a class="sgtfoot__link" href="properties-for-sale.html">Market report →</a></p>
+            <p class="sgwhy">Header and rows share one grid-template-columns string. The last column is right-aligned. Every table closes with a footer strip: what the numbers mean on the left, one gold link on the right.</p>
+            <div class="sgcols sgcols--boxes sgcols--panels">
+              <div class="sgcol">
+                <p class="sgsub">Note box<span class="sgsub__note">inside a panel</span></p>
+                <div class="sgnote sgnote--warn"><span class="sgnote__t">Priced above the room</span><span>Two thousand people looked and three came to see it. At this price the buyers who could afford it have already decided.</span></div>
+                <p class="sgwhy">2px coloured left border, 1px border in the same hue at 0.5, one shade darker background. The colour carries the verdict.</p>
+              </div>
+              <div class="sgcol">
+                <p class="sgsub">Empty state</p>
+                <div class="sgempty"><span class="sgempty__line">Nothing on Mon 05 in confirmed viewings. Click the day again to clear it, or pick another status.</span></div>
+                <p class="sgwhy">Keep the border and the height. One sentence that names the active filters and says how to get out. Never an illustration.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sgsec" aria-labelledby="sg-data">
+        <h2 class="sr-only" id="sg-data">09 / Data display</h2>
+        <div class="sgrule">
+          <span class="sgrule__left"><span>09 / Data display</span><span class="sgrule__dash" aria-hidden="true"></span></span>
+          <span class="sgrule__note">bars, sparklines, timelines — drawn in divs, never a chart library</span>
+        </div>
+        <ul class="sgdatas">
+          <li class="sgdata"><span class="sgdata__name">Progress</span>
+            <span class="sgprog"><span class="sgprog__f"></span></span>
+            <span class="sgdata__why">3px inside cards, 5px in panels, 8px when it is the point. Track always 0.12.</span></li>
+          <li class="sgdata"><span class="sgdata__name">Sparkline — falling</span>
+            <span class="sgspark"><span class="sgspark__b sgspark__b--0"></span><span class="sgspark__b sgspark__b--1"></span><span class="sgspark__b sgspark__b--2"></span><span class="sgspark__b sgspark__b--3"></span><span class="sgspark__b sgspark__b--4"></span><span class="sgspark__b sgspark__b--5"></span><span class="sgspark__b sgspark__b--6"></span><span class="sgspark__b sgspark__b--7"></span><span class="sgspark__b sgspark__b--8"></span><span class="sgspark__b sgspark__b--9"></span><span class="sgspark__b sgspark__b--10"></span><span class="sgspark__b sgspark__b--11"></span></span>
+            <span class="sgdata__why">Last three bars carry the trend colour: gold rising, orange falling. Earlier bars stay at 0.22.</span></li>
+          <li class="sgdata"><span class="sgdata__name">Distribution — in range</span>
+            <span class="sgdist"><span class="sgdist__b sgdist__b--0"></span><span class="sgdist__b sgdist__b--1"></span><span class="sgdist__b sgdist__b--2"></span><span class="sgdist__b sgdist__b--3 is-in"></span><span class="sgdist__b sgdist__b--4 is-in"></span><span class="sgdist__b sgdist__b--5 is-in"></span><span class="sgdist__b sgdist__b--6 is-in"></span><span class="sgdist__b sgdist__b--7 is-in"></span><span class="sgdist__b sgdist__b--8"></span><span class="sgdist__b sgdist__b--9"></span><span class="sgdist__b sgdist__b--10"></span><span class="sgdist__b sgdist__b--11"></span></span>
+            <span class="sgdata__why">Gold means "reaches it", 0.16 means "does not". Selection by colour, never by opacity of the same hue.</span></li>
+          <li class="sgdata"><span class="sgdata__name">Stacked mix</span>
+            <span class="sgmix"><span class="sgmix__s sgmix__s--0"></span><span class="sgmix__s sgmix__s--1"></span></span>
+            <span class="sgleg"><span class="sgleg__i sgleg__i--0">Running well <b>17</b></span><span class="sgleg__i sgleg__i--1">Needs a word <b>8</b></span></span></li>
+        </ul>
+        <div class="sgcols sgcols--data sgcols--panels">
+          <div class="sgcol">
+            <p class="sgsub">Timeline</p>
+            <ul class="sgtl">
+              <li class="sgtl__i sgtl__i--done"><span class="sgtl__d" aria-hidden="true"></span><span class="sgtl__n">Groundworks</span><span class="sgtl__s">Complete</span></li>
+              <li class="sgtl__i sgtl__i--done"><span class="sgtl__d" aria-hidden="true"></span><span class="sgtl__n">Structure</span><span class="sgtl__s">Complete</span></li>
+              <li class="sgtl__i sgtl__i--now"><span class="sgtl__d" aria-hidden="true"></span><span class="sgtl__n">Façade</span><span class="sgtl__s">In progress</span></li>
+              <li class="sgtl__i sgtl__i--ahead"><span class="sgtl__d" aria-hidden="true"></span><span class="sgtl__n">Handover</span><span class="sgtl__s">Scheduled</span></li>
+            </ul>
+            <p class="sgwhy">Base rule at 0.18 with a gold rule over it to the current step. Dots: filled behind, hollow gold at the current step, hollow grey ahead.</p>
+          </div>
+          <div class="sgcol">
+            <p class="sgsub">Funnel cells</p>
+            <ul class="sgfun">
+              <li class="sgfun__i"><span class="sgfun__l">Views</span><span class="sgfun__v">2 210</span><span class="sgfun__r sgfun__r--ink"></span></li>
+              <li class="sgfun__i"><span class="sgfun__l">Enquiries</span><span class="sgfun__v">14</span><span class="sgfun__r sgfun__r--good">0.6%</span></li>
+              <li class="sgfun__i"><span class="sgfun__l">Viewings</span><span class="sgfun__v">3</span><span class="sgfun__r sgfun__r--good">21%</span></li>
+              <li class="sgfun__i"><span class="sgfun__l">Offers</span><span class="sgfun__v">0</span><span class="sgfun__r sgfun__r--ink">none</span></li>
+            </ul>
+            <p class="sgwhy">Value plus its conversion rate beside it. The rate carries the judgement colour, not the value.</p>
+          </div>
+        </div>
+      </section>
+      <section class="sgsec" aria-labelledby="sg-furniture">
+        <h2 class="sr-only" id="sg-furniture">10 / Page furniture</h2>
+        <div class="sgrule">
+          <span class="sgrule__left"><span>10 / Page furniture</span><span class="sgrule__dash" aria-hidden="true"></span></span>
+          <span class="sgrule__note">the parts every page repeats</span>
+        </div>
+        <div class="sgcols sgcols--pair sgcols--roomy sgcols--framed">
+          <div class="sgcol">
+            <p class="sgsub">Section rule<span class="sgsub__note">the page's spine</span></p>
+            <div class="sgrule">
+              <span class="sgrule__left"><span>03 / Available now</span><span class="sgrule__dash" aria-hidden="true"></span><span class="sgrule__count">eight homes</span></span>
+              <span class="sgrule__note">true monthly under every rent</span>
+            </div>
+            <p class="sgwhy">Number and name in gold, a 28px gold dash, then a derived count in ink 0.5. On the right, one line of context — never a second heading. Sections number from 01 down the page.</p>
+          </div>
+          <div class="sgcol">
+            <p class="sgsub">Dashboard rail item</p>
+            <ul class="sgrail">
+              <li class="sgrail__i is-on"><span>Enquiries</span><span class="sgrail__b sgrail__b--warn">6</span></li>
+              <li class="sgrail__i"><span>Viewings</span><span class="sgrail__b">4</span></li>
+              <li class="sgrail__i is-off"><span>Performance</span><span class="sgrail__b">soon</span></li>
+            </ul>
+            <p class="sgwhy">Active: 2px gold left border, 0.08 wash, gold text. A badge turns orange only when it means work owed. An unbuilt screen sits at ink 0.4 and is not a link.</p>
+          </div>
+        </div>
+      </section>
+      <section class="sgsec" aria-labelledby="sg-writing">
+        <h2 class="sr-only" id="sg-writing">11 / Writing</h2>
+        <div class="sgrule">
+          <span class="sgrule__left"><span>11 / Writing</span><span class="sgrule__dash" aria-hidden="true"></span></span>
+          <span class="sgrule__note">the part most systems leave out</span>
+        </div>
+        <ul class="sgvoices">
+            <li class="sgvoice">
+              <span class="sgvoice__name">Say the consequence</span>
+              <span class="sgvoice__good">"You will find out about a price cut when you next open the site — which is usually too late."</span>
+              <span class="sgvoice__why">Not "notifications disabled". Every setting explains what happens, not what it is called.</span>
+            </li>
+            <li class="sgvoice">
+              <span class="sgvoice__name">Admit what is unknown</span>
+              <span class="sgvoice__good">"Nobody has been inside. Budget for the worst room you cannot see."</span>
+              <span class="sgvoice__why">A gap in the data is content, not an omission. The hatch, the "unseen" rows and the exterior-only labels all exist for this.</span>
+            </li>
+            <li class="sgvoice">
+              <span class="sgvoice__name">Argue against yourself</span>
+              <span class="sgvoice__good">"This cut costs the owner €31 000 and reaches nobody new. Walk away."</span>
+              <span class="sgvoice__why">The design is allowed to talk a user out of something. That is what makes the rest of it believable.</span>
+            </li>
+        </ul>
+        <div class="sgpanel sgpanel--prose">
+        <div class="sgcols sgcols--prose sgcols--g11">
+          <div class="sgcol"><p class="sgsub">Numbers</p>
+            <p class="sgwhy">Thousands separated by a <strong class="sgwhy__b">space</strong> Thousands separated by a space — €1 225 112, 24 128 listings. Never a comma, never a dot. One formatter for money and counts alike, or the two drift apart. Whole units unless the decimal carries meaning.</p></div>
+          <div class="sgcol"><p class="sgsub">Sentences</p>
+            <p class="sgwhy">Sentence case everywhere except tracked labels. No exclamation marks, no emoji, no "Oops". Numbers written out when they are prose ("nine files"), as figures when they are data. British spelling.</p></div>
+        </div>
+        </div>
+      </section>
+      <section class="sgsec" aria-labelledby="sg-fullform">
+        <h2 class="sr-only" id="sg-fullform">12 / A form, in full</h2>
+        <div class="sgrule">
+          <span class="sgrule__left"><span>12 / A form, in full</span><span class="sgrule__dash" aria-hidden="true"></span></span>
+          <span class="sgrule__note">the layout every settings and intake page uses</span>
+        </div>
+        <form class="sgform sgpanel sgpanel--form" action="#" method="post">
+          <div class="sgform__grid">
+            <label class="sgfield"><span class="sgfield__label">First name</span><input class="sgin" type="text" name="sg-given-name" autocomplete="given-name" value="Marta"></label>
+            <label class="sgfield"><span class="sgfield__label">Surname</span><input class="sgin" type="text" name="sg-family-name" autocomplete="family-name" value="Silveira"></label>
+            <label class="sgfield"><span class="sgfield__label">Date of birth</span><input class="sgin" type="text" name="sg-bday" autocomplete="bday" value="14 / 03 / 1988"></label>
+            <label class="sgfield sgfield--span2"><span class="sgfield__label">Email</span><input class="sgin" type="email" name="sg-email" autocomplete="email" value="marta.silveira@example.pt"></label>
+            <label class="sgfield"><span class="sgfield__label">Telephone</span><input class="sgin" type="tel" name="sg-tel" autocomplete="tel" value="+351 91 442 0402"></label>
+          </div>
+          <p class="sggroup"><span class="sggroup__name">Where you live now</span><span class="sggroup__note">Used on the deed and by the notary — not shown to anyone else.</span></p>
+          <div class="sgform__grid sgform__grid--addr">
+            <label class="sgfield"><span class="sgfield__label">Street and number</span><input class="sgin" type="text" name="sg-address-line1" autocomplete="address-line1" value="Rua da Esperança 84, 2º Esq."></label>
+            <label class="sgfield"><span class="sgfield__label">Postcode</span><input class="sgin" type="text" name="sg-postal-code" autocomplete="postal-code" value="1200-660"></label>
+            <label class="sgfield"><span class="sgfield__label">City</span><input class="sgin" type="text" name="sg-address-level2" autocomplete="address-level2" value="Lisbon"></label>
+            <label class="sgfield"><span class="sgfield__label">Country</span><input class="sgin" type="text" name="sg-country-name" autocomplete="country-name" value="Portugal"></label>
+          </div>
+          <div class="sgform__last">
+            <div>
+              <p class="sgsub">Language</p>
+              <div class="sgseg">
+                <button type="button" class="sgseg__b is-on" aria-pressed="true">EN</button>
+                <button type="button" class="sgseg__b" aria-pressed="false">PT</button>
+                <button type="button" class="sgseg__b" aria-pressed="false">ES</button>
+              </div>
+            </div>
+            <label class="sgfield"><span class="sgfield__label">A longer answer</span><textarea class="sgin sgin--area" name="sg-note" rows="2" placeholder="Anything the agent should know before the viewing…"></textarea></label>
+          </div>
+          <div class="sgform__foot">
+            <p class="sgform__status"><span class="sgdot" aria-hidden="true"></span>Saved. Anna and Rui see the change on their next reply.</p>
+            <p class="sgform__acts"><button type="button" class="sgb sgb--outline">Discard</button><button type="submit" class="sgb sgb--primary">Save changes</button></p>
+          </div>
+        </form>
+        <p class="sgwhy sgwhy--after">Three columns for identity, four for an address, one field per row on mobile. Related fields are separated by a 0.14 rule and a one-line heading, never by a card. The save footer carries a status dot on the left and never more than two buttons on the right.</p>
+      </section>
+      <section class="sgsec" aria-labelledby="sg-money">
+        <h2 class="sr-only" id="sg-money">13 / The money block</h2>
+        <div class="sgrule">
+          <span class="sgrule__left"><span>13 / The money block</span><span class="sgrule__dash" aria-hidden="true"></span></span>
+          <span class="sgrule__note">every calculator on the site is this shape</span>
+        </div>
+        <div class="sgcols sgcols--money">
+          <div class="sgcol">
+            <p class="sgsub">Land, tax, build and fees<span class="sgsub__note sgsub__note--dot">standard build</span></p>
+            <ul class="sgmoney">
+            <li class="sgmoney__r">
+              <span class="sgmoney__l"><span>The plot</span><span class="sgmoney__n">PLOT-0128 · Setúbal</span></span>
+              <span class="sgmoney__b">€55 / m²</span>
+              <span class="sgmoney__a">€132 000</span>
+            </li>
+            <li class="sgmoney__r">
+              <span class="sgmoney__l"><span>Purchase tax and notary</span><span class="sgmoney__n">IMT, stamp duty and the deed</span></span>
+              <span class="sgmoney__b">8.1% of land</span>
+              <span class="sgmoney__a sgmoney__a--dim">€10 692</span>
+            </li>
+            <li class="sgmoney__r">
+              <span class="sgmoney__l"><span>Construction</span><span class="sgmoney__n">Architect-drawn, insulated to class A</span></span>
+              <span class="sgmoney__b">€1 580 / m²</span>
+              <span class="sgmoney__a sgmoney__a--gold">€948 000</span>
+            </li>
+            <li class="sgmoney__r">
+              <span class="sgmoney__l"><span>Connections</span><span class="sgmoney__n">Four services to bring in</span></span>
+              <span class="sgmoney__b">site specific</span>
+              <span class="sgmoney__a sgmoney__a--warn">€23 900</span>
+            </li>
+            </ul>
+            <p class="sgtotal">
+              <span class="sgtotal__left"><span class="sgtotal__tl">All in, keys in hand</span><span class="sgtotal__per">600 m² finished at €2 042 per m²</span></span>
+              <span class="sgtotal__sum">€1 225 112</span>
+            </p>
+          </div>
+          <div class="sgcol">
+            <p class="sgsub">Against buying it built</p>
+            <p class="sgbar__l sgbar__l--self">Building it yourself<span>€2 042</span></p>
+            <span class="sgbar"><span class="sgbar__f sgbar__f--a"></span></span>
+            <p class="sgbar__l">Buying built in Setúbal<span>€2 280</span></p>
+            <span class="sgbar"><span class="sgbar__f sgbar__f--b"></span></span>
+            <div class="sgnote sgnote--good">Works out 10% below buying the same house finished — and you choose the plan.</div>
+            <p class="sgform__acts sgform__acts--gap"><button type="button" class="sgb sgb--primary">Book a site visit</button><button type="button" class="sgb sgb--outline">Self-build finance</button></p>
+          </div>
+        </div>
+        <p class="sgwhy sgwhy--after">Rows carry <strong class="sgwhy__b">label, note, basis, amount</strong> — the basis column is what makes the number checkable, and it is why nobody has to ask where a figure came from. The total sits at 42px in gold with its per-unit line beneath, and the comparison always states what the alternative costs rather than implying it.</p>
+      </section>
+      <section class="sgsec" aria-labelledby="sg-parts">
+        <h2 class="sr-only" id="sg-parts">14 / The rest of the parts</h2>
+        <div class="sgrule">
+          <span class="sgrule__left"><span>14 / The rest of the parts</span><span class="sgrule__dash" aria-hidden="true"></span></span>
+          <span class="sgrule__note">everything else the pages are assembled from</span>
+        </div>
+        <ul class="sgparts">
+          <li class="sgpart"><span class="sgpart__n">Stat tile</span>
+            <span class="sgstat"><span class="sgstat__v">33</span><span class="sgstat__d">+2 this month</span><span class="sgstat__l">Two new files in Alcântara since the first.</span></span></li>
+          <li class="sgpart"><span class="sgpart__n">Person row</span>
+            <span class="sgperson"><span class="sgperson__m">AB</span><span><span class="sgperson__nm">Anna Bertin</span><span class="sgperson__r">Agent · Príncipe Real</span></span></span>
+            <span class="sgpart__why">Monogram, never a photograph placeholder. Gold ring when active.</span></li>
+          <li class="sgpart"><span class="sgpart__n">Checklist row</span>
+            <span class="sgcheck"><span class="sgcheck__i sgcheck__i--ok"><span aria-hidden="true">✓</span><span><span class="sgcheck__t">Measured survey</span><span class="sgcheck__m">132 m² against 140 on the deed</span></span></span><span class="sgcheck__i sgcheck__i--no"><span aria-hidden="true">!</span><span><span class="sgcheck__t">Permits</span><span class="sgcheck__m">Terrace enclosure unconsented</span></span></span></span></li>
+          <li class="sgpart"><span class="sgpart__n">Document row</span>
+            <span class="sgdoc"><span class="sgdoc__t" aria-hidden="true">S</span><span><span class="sgdoc__nm">Survey and floor plan</span><span class="sgdoc__m">1.8 MB</span></span></span>
+            <span class="sgpart__why">A lettered square, never a file-type icon. One letter, 17px, ink 0.28 border.</span></li>
+          <li class="sgpart"><span class="sgpart__n">Message bubbles</span>
+            <span class="sgbub sgbub--them">Thursday at eleven is confirmed.</span>
+            <span class="sgbub sgbub--you">Booked. Could you send the accounts?</span>
+            <span class="sgpart__why">Theirs gold-edged and bright, yours grey-edged and quiet. Never a coloured balloon.</span></li>
+          <li class="sgpart"><span class="sgpart__n">Slot picker</span>
+            <span class="sgslots"><span class="sgslot is-on">Thu 10:00</span><span class="sgslot">Thu 17:30</span><span class="sgslot">Fri 12:00</span><span class="sgslot">Sat 11:00</span></span>
+            <span class="sgpart__why">Selecting one rewrites the button below it: "Book Thu 10:00 with Anna".</span></li>
+          <li class="sgpart"><span class="sgpart__n">Step header</span>
+            <span class="sgsteps2"><span class="sgstep2 is-now"><span class="sgstep2__top"><span class="sgstep2__n">01</span><span class="sgstep2__tick" aria-hidden="true">✓</span></span><span class="sgstep2__t">Your home</span></span><span class="sgstep2"><span class="sgstep2__top"><span class="sgstep2__n">02</span><span class="sgstep2__dot" aria-hidden="true"></span></span><span class="sgstep2__t">The rooms</span></span></span>
+            <span class="sgpart__why">2px gold top border on the current step, a green tick when done.</span></li>
+          <li class="sgpart"><span class="sgpart__n">Tabs with counts</span>
+            <span class="sgtabs"><span class="sgtab is-on">Everything<span class="sgtab__n">7</span></span><span class="sgtab">Owners<span class="sgtab__n">2</span></span></span>
+            <span class="sgpart__why">Counts sum to the "everything" total, always. A tab that lies is worse than no tab.</span></li>
+        </ul>
+      </section>
+      <section class="sgsec" aria-labelledby="sg-shell">
+        <h2 class="sr-only" id="sg-shell">15 / Header, footer and overlays</h2>
+        <div class="sgrule">
+          <span class="sgrule__left"><span>15 / Header, footer and overlays</span><span class="sgrule__dash" aria-hidden="true"></span></span>
+          <span class="sgrule__note">the fixed furniture, for reference</span>
+        </div>
+        <div class="sgcols sgcols--pair sgcols--roomy sgcols--framed">
+          <div class="sgcol">
+            <p class="sgsub">The nav dropdown<span class="sgsub__note">the only shadow on the site</span></p>
+            <span class="sgdrop">
+              <span class="sgdrop__c"><span class="sgdrop__h">By status</span>
+                <span class="sgdrop__r">Homes for sale</span>
+                <span class="sgdrop__r is-on">New builds</span>
+                <span class="sgdrop__r">Recently sold</span>
+              </span>
+            </span>
+            <p class="sgwhy">Gold top border at 0.7, everything else at 0.14. Rises 24px on open over 0.22s. Column headings in Instrument Serif gold with a hairline under them.</p>
+          </div>
+          <div class="sgcol">
+            <p class="sgsub">The utility bar and the watermark</p>
+            <span class="sgutil"><span class="sgutil__dot" aria-hidden="true"></span><span>24 128 listings live</span><span class="sgutil__sep">·</span><span>EN · USD</span></span>
+            <span class="sgmark2" aria-hidden="true">AVAVA</span>
+            <p class="sgwatermark"><span class="sgwatermark__mark" aria-hidden="true">AVAVA</span><span class="sgwatermark__t">Your brief, <em>in your own words.</em></span></p>
+            <p class="sgwhy">The watermark sits behind the heading on purpose, outline only at 0.09, and is never moved out of the way. The gold dot pulses 0.35 → 1 over 1.8s, and it is the only looping animation on the site.</p>
+          </div>
+        </div>
+      </section>
+      <section class="sgsec" aria-labelledby="sg-marks">
+        <h2 class="sr-only" id="sg-marks">16 / Marks</h2>
+        <div class="sgrule">
+          <span class="sgrule__left"><span>16 / Marks</span><span class="sgrule__dash" aria-hidden="true"></span></span>
+          <span class="sgrule__note">there is no icon set — this is the whole vocabulary</span>
+        </div>
+        <div class="sgpanel sgpanel--marks">
+          <ul class="sgmarks">
+            <li class="sgmark"><span class="sgmark__g sgmark__g--gold">→</span><span class="sgmark__m">Onward link</span></li>
+            <li class="sgmark"><span class="sgmark__g sgmark__g--ink50">·</span><span class="sgmark__m">Separator</span></li>
+            <li class="sgmark"><span class="sgmark__g sgmark__g--ink50">/</span><span class="sgmark__m">Breadcrumb</span></li>
+            <li class="sgmark"><span class="sgmark__g sgmark__g--ink35">—</span><span class="sgmark__m">Not applicable</span></li>
+            <li class="sgmark"><span class="sgmark__g sgmark__g--good">✓</span><span class="sgmark__m">On file</span></li>
+            <li class="sgmark"><span class="sgmark__g sgmark__g--warn">!</span><span class="sgmark__m">Missing</span></li>
+            <li class="sgmark"><span class="sgmark__g sgmark__g--small"><span class="sgmark__dot" aria-hidden="true"></span></span><span class="sgmark__m">Status dot</span></li>
+            <li class="sgmark"><span class="sgmark__g sgmark__g--small"><span class="sgmark__sq" aria-hidden="true">W</span><span class="sgmark__sq" aria-hidden="true">S</span></span><span class="sgmark__m">Service squares</span></li>
+            <li class="sgmark"><span class="sgmark__g sgmark__g--small"><svg class="sgmark__svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="8" r="3.4"/><path d="M5 20c1.6-3.6 4.1-5.4 7-5.4s5.4 1.8 7 5.4"/></svg></span><span class="sgmark__m">Account</span></li>
+            <li class="sgmark"><span class="sgmark__g sgmark__g--small"><svg class="sgmark__svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span><span class="sgmark__m">Nav chevron</span></li>
+          </ul>
+          <p class="sgwhy sgwhy--rule">Two inline SVGs and eight characters. If a new idea seems to need an icon, it almost always needs a word instead — the site is a set of documents, and documents are read, not scanned for symbols.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+</main>
+
+<!-- ============================================================ FOOTER -->
+<footer class="site-footer">
+  <span class="blueprint blueprint--dark" aria-hidden="true"></span>
+
+  <div class="footer__cta">
+    <p class="footer__cta-text"><span class="footer__cta-label">Ready when you are</span><span class="footer__cta-line">List your property, or let us find one.</span></p>
+    <p class="footer__cta-actions">
+      <a class="btn btn--gold" href="dashboard-sell.html">List in 10 min</a>
+      <a class="btn btn--ghost" href="contacts.html">Talk to an agent</a>
+    </p>
+  </div>
+
+  <div class="footer__body">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <p class="logo logo--footer">
+          <span class="logo__mark">AVAVA</span>
+          <span class="logo__sub">Homes &amp; Estates</span>
+        </p>
+        <p class="footer__about">A verified property index run since 2011 by licensed agents in 38 cities. Every file carries plans, permits and price history.</p>
+        <ul class="footer__stats">
+          <li><span class="footer__stat-value">24 128</span><span class="footer__stat-label">Files indexed</span></li>
+          <li><span class="footer__stat-value">1 940</span><span class="footer__stat-label">Licensed agents</span></li>
+          <li><span class="footer__stat-value">38</span><span class="footer__stat-label">Cities</span></li>
+        </ul>
+        <ul class="socials">
+          <li><a class="socials__link" href="#" title="Instagram"><span aria-hidden="true">IG</span><span class="sr-only">Instagram</span></a></li>
+          <li><a class="socials__link" href="#" title="LinkedIn"><span aria-hidden="true">IN</span><span class="sr-only">LinkedIn</span></a></li>
+          <li><a class="socials__link" href="#" title="YouTube"><span aria-hidden="true">YT</span><span class="sr-only">YouTube</span></a></li>
+          <li><a class="socials__link" href="#" title="Pinterest"><span aria-hidden="true">PT</span><span class="sr-only">Pinterest</span></a></li>
+        </ul>
+      </div>
+
+      <nav class="footer__col" aria-labelledby="fc-buy">
+        <p class="footer__col-head"><span id="fc-buy">Buy</span><span class="footer__col-num">01</span></p>
+        <ul class="footer__links">
+          <li><a href="properties-for-sale.html"><span>Search listings</span><span class="footer__count">24 128</span></a></li>
+          <li><a href="half-map.html"><span>Map search</span></a></li>
+          <li><a href="new-builds.html"><span>New developments</span><span class="footer__count">1 146</span></a></li>
+          <li><a href="properties-for-sale.html"><span>Houses &amp; villas</span><span class="footer__count">3 214</span></a></li>
+          <li><a href="properties-for-sale.html"><span>Apartments</span><span class="footer__count">9 880</span></a></li>
+          <li><a href="land-plots.html"><span>Land &amp; plots</span><span class="footer__count">506</span></a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer__col" aria-labelledby="fc-sell">
+        <p class="footer__col-head"><span id="fc-sell">Sell &amp; rent</span><span class="footer__col-num">02</span></p>
+        <ul class="footer__links">
+          <li><a href="dashboard-sell.html"><span>List a property</span><span class="footer__count">10 min</span></a></li>
+          <li><a href="contacts.html"><span>Free valuation</span></a></li>
+          <li><a href="for-rent.html"><span>Rent out</span><span class="footer__count">5 726</span></a></li>
+          <li><a href="create-free-agent-account.html"><span>For agencies</span></a></li>
+          <li><a href="pricing.html"><span>Commission</span><span class="footer__count">1.4%</span></a></li>
+          <li><a href="home-loan-process.html"><span>Escrow deposits</span></a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer__col" aria-labelledby="fc-company">
+        <p class="footer__col-head"><span id="fc-company">Company</span><span class="footer__col-num">03</span></p>
+        <ul class="footer__links">
+          <li><a href="about.html"><span>About AVAVA</span><span class="footer__count">2011</span></a></li>
+          <li><a href="agent-list.html"><span>Meet the agents</span><span class="footer__count">1 940</span></a></li>
+          <li><a href="career.html"><span>Careers</span><span class="footer__count">7</span></a></li>
+          <li><a href="blog.html"><span>Press</span></a></li>
+          <li><a href="blog-v2.html"><span>Market reports</span><span class="footer__count">Q3</span></a></li>
+          <li><a href="contacts.html"><span>Contact</span></a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer__col" aria-labelledby="fc-help">
+        <p class="footer__col-head"><span id="fc-help">Help</span><span class="footer__col-num">04</span></p>
+        <ul class="footer__links">
+          <li><a href="home-loan-process.html"><span>How it works</span></a></li>
+          <li><a href="blog-single.html"><span>Buyer guide</span></a></li>
+          <li><a href="blog-single-v2.html"><span>Seller guide</span></a></li>
+          <li><a href="mortgage-calculator.html"><span>Mortgages</span></a></li>
+          <li><a href="faq.html"><span>Legal checks</span></a></li>
+          <li><a href="faq.html"><span>FAQ</span><span class="footer__count">86</span></a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <p class="footer__register">
+      <span>Office register · <span data-office-city>Valencia</span> selected</span>
+      <span class="footer__register-status" data-office-status>Open now · until 19:00</span>
+    </p>
+
+    <ul class="offices">
+      <li class="office" data-city="Valencia" data-status="Open now · until 19:00">
+        <span class="office__mark" aria-hidden="true"></span>
+        <span class="office__head"><span class="office__city">Valencia</span><span class="office__open">Open</span></span>
+        <span class="office__address">Carrer de Cadis 42, 46006</span>
+        <span class="office__phone">+34 963 220 884</span>
+        <span class="office__hours">Mon—Fri 9:00—19:00 · Sat 10:00—14:00</span>
+        <span class="office__lic">Lic. ES-4471 · 212 agents</span>
+      </li>
+      <li class="office" data-city="Marbella" data-status="Open now · until 19:30">
+        <span class="office__mark" aria-hidden="true"></span>
+        <span class="office__head"><span class="office__city">Marbella</span><span class="office__open">Open</span></span>
+        <span class="office__address">Avenida Ricardo Soriano 18</span>
+        <span class="office__phone">+34 952 118 402</span>
+        <span class="office__hours">Mon—Fri 9:30—19:30 · Sat by appointment</span>
+        <span class="office__lic">Lic. ES-2098 · 168 agents</span>
+      </li>
+      <li class="office" data-city="Porto" data-status="Closed · opens 9:00">
+        <span class="office__mark" aria-hidden="true"></span>
+        <span class="office__head"><span class="office__city">Porto</span><span class="office__open office__open--closed">Closed</span></span>
+        <span class="office__address">Rua de Cedofeita 210, 4050</span>
+        <span class="office__phone">+351 220 145 776</span>
+        <span class="office__hours">Mon—Fri 9:00—18:30</span>
+        <span class="office__lic">Lic. PT-5512 · 96 agents</span>
+      </li>
+      <li class="office" data-city="Palermo" data-status="Open now · until 18:00">
+        <span class="office__mark" aria-hidden="true"></span>
+        <span class="office__head"><span class="office__city">Palermo</span><span class="office__open">Open</span></span>
+        <span class="office__address">Via Roma 314, 90133</span>
+        <span class="office__phone">+39 091 604 2210</span>
+        <span class="office__hours">Mon—Fri 9:00—18:00</span>
+        <span class="office__lic">Lic. IT-6104 · 74 agents</span>
+      </li>
+    </ul>
+
+    <div class="footer__meta">
+      <ul class="legal">
+        <li><a href="#">Privacy policy</a></li>
+        <li><a href="#">Terms of service</a></li>
+        <li><a href="#">Cookie settings</a></li>
+        <li><a href="#">Licences &amp; registrations</a></li>
+        <li><a href="#">Complaints</a></li>
+      </ul>
+      <div class="switches">
+        <div class="switch" role="group" aria-label="Language">
+          <input class="sr-only switch__input" type="radio" name="lang" id="lang-en" checked>
+          <label class="switch__btn" for="lang-en">EN</label>
+          <input class="sr-only switch__input" type="radio" name="lang" id="lang-es">
+          <label class="switch__btn" for="lang-es">ES</label>
+          <input class="sr-only switch__input" type="radio" name="lang" id="lang-pt">
+          <label class="switch__btn" for="lang-pt">PT</label>
+        </div>
+        <div class="switch" role="group" aria-label="Currency">
+          <input class="sr-only switch__input" type="radio" name="currency" id="cur-eur" value="EUR" checked>
+          <label class="switch__btn" for="cur-eur">EUR</label>
+          <input class="sr-only switch__input" type="radio" name="currency" id="cur-usd" value="USD">
+          <label class="switch__btn" for="cur-usd">USD</label>
+          <input class="sr-only switch__input" type="radio" name="currency" id="cur-gbp" value="GBP">
+          <label class="switch__btn" for="cur-gbp">GBP</label>
+        </div>
+      </div>
+    </div>
+
+    <p class="footer__copy">
+    Copyright © 2026 All Rights Reserved || Designed By Developer Nayem.
+      <span>Index rev. 08 · 2026 · <span data-office-desk>Valencia</span> desk</span>
+    </p>
+  </div>
+
+  <p class="wordmark" aria-hidden="true">AVAVA</p>
+</footer>
+
+<!-- ============================================================ MODALS -->
+<div class="modal" id="signin" role="dialog" aria-modal="true" aria-labelledby="signin-title">
+  <a class="modal__backdrop" href="#" aria-label="Close dialog" data-close-modal></a>
+  <div class="modal__panel">
+    <a class="modal__close" href="#" aria-label="Close dialog" data-close-modal>
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+    </a>
+    <p class="modal__eyebrow">AVAVA account</p>
+    <h2 class="modal__title" id="signin-title">Welcome back.</h2>
+    <p class="modal__lede">Saved searches, viewing requests and price alerts in one place.</p>
+
+    <div class="modal__social">
+      <a class="social-btn" href="#">
+        <svg viewBox="0 0 18 18" width="16" height="16" aria-hidden="true"><path fill="#4285F4" d="M17.64 9.2c0-.64-.06-1.25-.16-1.84H9v3.48h4.84a4.14 4.14 0 0 1-1.8 2.72v2.26h2.92a8.78 8.78 0 0 0 2.68-6.62z"></path><path fill="#34A853" d="M9 18c2.43 0 4.47-.8 5.96-2.18l-2.92-2.26c-.81.54-1.84.86-3.04.86a5.4 5.4 0 0 1-5.07-3.72H.96v2.34A9 9 0 0 0 9 18z"></path><path fill="#FBBC05" d="M3.93 10.7a5.4 5.4 0 0 1 0-3.4V4.96H.96a9 9 0 0 0 0 8.08l2.97-2.34z"></path><path fill="#EA4335" d="M9 3.58c1.32 0 2.5.45 3.44 1.35l2.58-2.59A9 9 0 0 0 .96 4.96L3.93 7.3A5.4 5.4 0 0 1 9 3.58z"></path></svg>
+        <span>Google</span>
+      </a>
+      <a class="social-btn" href="#">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="#1877F2" d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.95h-1.51c-1.49 0-1.95.93-1.95 1.88v2.28h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07z"></path></svg>
+        <span>Facebook</span>
+      </a>
+    </div>
+
+    <p class="divider"><span>or with email</span></p>
+
+    <form class="modal__form" action="#" method="post">
+      <p class="field field--line">
+        <label class="field__label" for="login-email">Email</label>
+        <input class="field__control" type="email" id="login-email" name="email" placeholder="you@email.com" autocomplete="email" required>
+      </p>
+      <p class="field field--line">
+        <label class="field__label" for="login-pass">Password</label>
+        <input class="field__control" type="password" id="login-pass" name="password" placeholder="••••••••" autocomplete="current-password" required>
+      </p>
+      <p class="modal__row">
+        <label class="checkbox"><input type="checkbox" name="remember"><span>Keep me signed in</span></label>
+        <a class="modal__link" href="#">Forgot password?</a>
+      </p>
+      <button class="btn btn--accent btn--block" type="submit">Sign in</button>
+    </form>
+
+    <p class="modal__foot">No account yet? <a class="modal__link modal__link--u" href="#signup" data-open-modal="signup">Create one</a></p>
+  </div>
+</div>
+
+<div class="modal" id="signup" role="dialog" aria-modal="true" aria-labelledby="signup-title">
+  <a class="modal__backdrop" href="#" aria-label="Close dialog" data-close-modal></a>
+  <div class="modal__panel">
+    <a class="modal__close" href="#" aria-label="Close dialog" data-close-modal>
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+    </a>
+    <p class="modal__eyebrow">Join AVAVA</p>
+    <h2 class="modal__title" id="signup-title">Create your account.</h2>
+    <p class="modal__lede">List a property or follow the market with weekly reports.</p>
+
+    <div class="modal__social">
+      <a class="social-btn" href="#">
+        <svg viewBox="0 0 18 18" width="16" height="16" aria-hidden="true"><path fill="#4285F4" d="M17.64 9.2c0-.64-.06-1.25-.16-1.84H9v3.48h4.84a4.14 4.14 0 0 1-1.8 2.72v2.26h2.92a8.78 8.78 0 0 0 2.68-6.62z"></path><path fill="#34A853" d="M9 18c2.43 0 4.47-.8 5.96-2.18l-2.92-2.26c-.81.54-1.84.86-3.04.86a5.4 5.4 0 0 1-5.07-3.72H.96v2.34A9 9 0 0 0 9 18z"></path><path fill="#FBBC05" d="M3.93 10.7a5.4 5.4 0 0 1 0-3.4V4.96H.96a9 9 0 0 0 0 8.08l2.97-2.34z"></path><path fill="#EA4335" d="M9 3.58c1.32 0 2.5.45 3.44 1.35l2.58-2.59A9 9 0 0 0 .96 4.96L3.93 7.3A5.4 5.4 0 0 1 9 3.58z"></path></svg>
+        <span>Google</span>
+      </a>
+      <a class="social-btn" href="#">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="#1877F2" d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.95h-1.51c-1.49 0-1.95.93-1.95 1.88v2.28h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07z"></path></svg>
+        <span>Facebook</span>
+      </a>
+    </div>
+
+    <p class="divider"><span>or with email</span></p>
+
+    <form class="modal__form" action="#" method="post">
+      <p class="field field--line">
+        <label class="field__label" for="reg-name">Full name</label>
+        <input class="field__control" type="text" id="reg-name" name="name" placeholder="Anna Bertin" autocomplete="name" required>
+      </p>
+      <p class="field field--line">
+        <label class="field__label" for="reg-email">Email</label>
+        <input class="field__control" type="email" id="reg-email" name="email" placeholder="you@email.com" autocomplete="email" required>
+      </p>
+      <p class="field field--line">
+        <label class="field__label" for="reg-pass">Password</label>
+        <input class="field__control" type="password" id="reg-pass" name="password" placeholder="min. 8 characters" autocomplete="new-password" minlength="8" required>
+      </p>
+      <label class="checkbox checkbox--top"><input type="checkbox" name="terms" required><span>I agree to the terms of service and privacy policy.</span></label>
+      <button class="btn btn--accent btn--block" type="submit">Create account</button>
+    </form>
+
+    <p class="modal__foot">Already have an account? <a class="modal__link modal__link--u" href="#signin" data-open-modal="signin">Sign in</a></p>
+  </div>
+</div>
+
+<div class="modal modal--filters" id="filters" role="dialog" aria-modal="true" aria-labelledby="filters-title">
+  <a class="modal__backdrop" href="#" aria-label="Close dialog" data-close-modal></a>
+  <div class="fsheet">
+    <span class="fsheet__crop" aria-hidden="true"></span>
+
+    <div class="fsheet__head">
+      <div class="fsheet__id">
+        <span class="dial dial--sm" data-filters-dial aria-hidden="true"><span class="dial__inner" data-filters-applied>3</span></span>
+        <div>
+          <p class="eyebrow"><span>Filter sheet · rev 08</span><span class="eyebrow__line" aria-hidden="true"></span><span class="eyebrow__note" data-filters-summary>3 criteria applied</span></p>
+          <h2 class="fsheet__title" id="filters-title">Every criterion, <em>one sheet.</em></h2>
+        </div>
+      </div>
+      <a class="modal__close" href="#" aria-label="Close dialog" data-close-modal>
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+      </a>
+    </div>
+
+    <div class="fsheet__deals" role="group" aria-label="Deal type">
+      <input class="sr-only fdeal__input" type="radio" name="fdeal" id="fd-buy" value="sale" checked>
+      <label class="fdeal" for="fd-buy"><span class="fdeal__mark" aria-hidden="true"></span><span class="fdeal__label">Buy</span><span class="fdeal__count">18 402</span></label>
+      <input class="sr-only fdeal__input" type="radio" name="fdeal" id="fd-rent" value="rent">
+      <label class="fdeal" for="fd-rent"><span class="fdeal__mark" aria-hidden="true"></span><span class="fdeal__label">Rent</span><span class="fdeal__count">5 726</span></label>
+      <input class="sr-only fdeal__input" type="radio" name="fdeal" id="fd-new" value="new">
+      <label class="fdeal" for="fd-new"><span class="fdeal__mark" aria-hidden="true"></span><span class="fdeal__label">New build</span><span class="fdeal__count">1 146</span></label>
+      <input class="sr-only fdeal__input" type="radio" name="fdeal" id="fd-com" value="commercial">
+      <label class="fdeal" for="fd-com"><span class="fdeal__mark" aria-hidden="true"></span><span class="fdeal__label">Commercial</span><span class="fdeal__count">842</span></label>
+    </div>
+
+    <div class="fsheet__cols">
+      <section class="fcol" aria-labelledby="fcol-type">
+        <p class="fcol__head"><span id="fcol-type">Property type</span><span class="fcol__num">01</span></p>
+        <div class="fcol__chips">
+          <label class="fchip"><input type="checkbox" class="sr-only fchip__input" name="ftype" value="house"><span>House / villa <span class="fchip__count">3 214</span></span></label>
+          <label class="fchip"><input type="checkbox" class="sr-only fchip__input" name="ftype" value="apartment" checked><span>Apartment <span class="fchip__count">9 880</span></span></label>
+          <label class="fchip"><input type="checkbox" class="sr-only fchip__input" name="ftype" value="townhouse"><span>Townhouse <span class="fchip__count">1 108</span></span></label>
+          <label class="fchip"><input type="checkbox" class="sr-only fchip__input" name="ftype" value="loft"><span>Loft <span class="fchip__count">412</span></span></label>
+          <label class="fchip"><input type="checkbox" class="sr-only fchip__input" name="ftype" value="penthouse"><span>Penthouse <span class="fchip__count">286</span></span></label>
+          <label class="fchip"><input type="checkbox" class="sr-only fchip__input" name="ftype" value="land"><span>Land / plot <span class="fchip__count">506</span></span></label>
+        </div>
+        <p class="field field--line fcol__field">
+          <label class="field__label" for="f-listed">Listed</label>
+          <select class="field__control" id="f-listed">
+            <option>Any time</option><option>Last 24 hours</option><option>Last 7 days</option><option>Last 30 days</option>
+          </select>
+        </p>
+        <label class="checkbox"><input type="checkbox" name="freduced"><span>Price reduced only</span></label>
+        <label class="checkbox"><input type="checkbox" name="fverified"><span>Verified files only</span></label>
+      </section>
+
+      <section class="fcol" aria-labelledby="fcol-price">
+        <p class="fcol__head"><span id="fcol-price" data-fprice-title>Asking price</span><span class="fcol__num">02</span></p>
+        <span class="fhist" aria-hidden="true">
+          <span class="fhist__bar" data-h="12"></span><span class="fhist__bar" data-h="18"></span><span class="fhist__bar" data-h="26"></span><span class="fhist__bar" data-h="34"></span><span class="fhist__bar" data-h="46"></span><span class="fhist__bar" data-h="58"></span><span class="fhist__bar" data-h="72"></span><span class="fhist__bar" data-h="88"></span><span class="fhist__bar" data-h="96"></span><span class="fhist__bar" data-h="84"></span><span class="fhist__bar" data-h="66"></span><span class="fhist__bar" data-h="52"></span><span class="fhist__bar" data-h="38"></span><span class="fhist__bar" data-h="30"></span><span class="fhist__bar" data-h="26"></span><span class="fhist__bar" data-h="18"></span><span class="fhist__bar" data-h="12"></span>
+        </span>
+        <span class="fhist__axis" aria-hidden="true"><span class="fhist__span" data-fhist-span></span></span>
+        <p class="fhist__ends">
+          <span data-fprice-floor>€90 k</span>
+          <span class="fhist__median" data-fprice-median>median €680 k</span>
+          <span data-fprice-ceil>€4.8 M</span>
+        </p>
+        <div class="fbands" role="group" aria-label="Price band">
+          <input class="sr-only fband__input" type="radio" name="fband" id="fb-0" value="0">
+          <label class="fband" for="fb-0"><span>Any price</span><span class="fband__bar"><span class="fband__fill fband__fill--100"></span></span><span class="fband__count">24 128</span></label>
+          <input class="sr-only fband__input" type="radio" name="fband" id="fb-1" value="1" checked>
+          <label class="fband" for="fb-1"><span>Up to €300 k</span><span class="fband__bar"><span class="fband__fill fband__fill--38"></span></span><span class="fband__count">4 118</span></label>
+          <input class="sr-only fband__input" type="radio" name="fband" id="fb-2" value="2">
+          <label class="fband" for="fb-2"><span>€300 k — €700 k</span><span class="fband__bar"><span class="fband__fill fband__fill--72"></span></span><span class="fband__count">8 940</span></label>
+          <input class="sr-only fband__input" type="radio" name="fband" id="fb-3" value="3">
+          <label class="fband" for="fb-3"><span>€700 k — €1.5 M</span><span class="fband__bar"><span class="fband__fill fband__fill--54"></span></span><span class="fband__count">6 512</span></label>
+          <input class="sr-only fband__input" type="radio" name="fband" id="fb-4" value="4">
+          <label class="fband" for="fb-4"><span>€1.5 M +</span><span class="fband__bar"><span class="fband__fill fband__fill--26"></span></span><span class="fband__count">2 264</span></label>
+        </div>
+      </section>
+
+      <section class="fcol" aria-labelledby="fcol-rooms">
+        <p class="fcol__head"><span id="fcol-rooms">Rooms &amp; size</span><span class="fcol__num">03</span></p>
+
+        <div class="fcount">
+          <p class="fcount__label">Bedrooms</p>
+          <div class="fcount__row" role="group" aria-label="Bedrooms">
+            <input class="sr-only fcount__input" type="radio" name="fbeds" id="fbe-any" checked><label class="fcount__btn" for="fbe-any">Any</label>
+            <input class="sr-only fcount__input" type="radio" name="fbeds" id="fbe-1"><label class="fcount__btn" for="fbe-1">1+</label>
+            <input class="sr-only fcount__input" type="radio" name="fbeds" id="fbe-2"><label class="fcount__btn" for="fbe-2">2+</label>
+            <input class="sr-only fcount__input" type="radio" name="fbeds" id="fbe-3"><label class="fcount__btn" for="fbe-3">3+</label>
+            <input class="sr-only fcount__input" type="radio" name="fbeds" id="fbe-4"><label class="fcount__btn" for="fbe-4">4+</label>
+          </div>
+        </div>
+
+        <div class="fcount">
+          <p class="fcount__label">Bathrooms</p>
+          <div class="fcount__row" role="group" aria-label="Bathrooms">
+            <input class="sr-only fcount__input" type="radio" name="fbaths" id="fba-any" checked><label class="fcount__btn" for="fba-any">Any</label>
+            <input class="sr-only fcount__input" type="radio" name="fbaths" id="fba-1"><label class="fcount__btn" for="fba-1">1+</label>
+            <input class="sr-only fcount__input" type="radio" name="fbaths" id="fba-2"><label class="fcount__btn" for="fba-2">2+</label>
+            <input class="sr-only fcount__input" type="radio" name="fbaths" id="fba-3"><label class="fcount__btn" for="fba-3">3+</label>
+          </div>
+        </div>
+
+        <div class="fcount">
+          <p class="fcount__label">Parking</p>
+          <div class="fcount__row" role="group" aria-label="Parking">
+            <input class="sr-only fcount__input" type="radio" name="fpark" id="fp-any" checked><label class="fcount__btn" for="fp-any">Any</label>
+            <input class="sr-only fcount__input" type="radio" name="fpark" id="fp-1"><label class="fcount__btn" for="fp-1">1+</label>
+            <input class="sr-only fcount__input" type="radio" name="fpark" id="fp-2"><label class="fcount__btn" for="fp-2">2+</label>
+          </div>
+        </div>
+
+        <div class="fsizes">
+          <p class="field field--line">
+            <label class="field__label" for="f-minm">Min m²</label>
+            <input class="field__control" type="text" id="f-minm" inputmode="numeric" placeholder="60">
+          </p>
+          <p class="field field--line">
+            <label class="field__label" for="f-maxm">Max m²</label>
+            <input class="field__control" type="text" id="f-maxm" inputmode="numeric" placeholder="240">
+          </p>
+        </div>
+      </section>
+
+      <section class="fcol" aria-labelledby="fcol-must">
+        <p class="fcol__head"><span id="fcol-must">Must have</span><span class="fcol__num">04</span></p>
+        <div class="fcol__chips">
+          <label class="fchip"><input type="checkbox" class="sr-only fchip__input" name="ffeat" value="terrace" checked><span>Terrace</span></label>
+          <label class="fchip"><input type="checkbox" class="sr-only fchip__input" name="ffeat" value="parking"><span>Parking</span></label>
+          <label class="fchip"><input type="checkbox" class="sr-only fchip__input" name="ffeat" value="lift"><span>Lift</span></label>
+          <label class="fchip"><input type="checkbox" class="sr-only fchip__input" name="ffeat" value="garden"><span>Garden</span></label>
+          <label class="fchip"><input type="checkbox" class="sr-only fchip__input" name="ffeat" value="pool"><span>Pool</span></label>
+          <label class="fchip"><input type="checkbox" class="sr-only fchip__input" name="ffeat" value="sea"><span>Sea view</span></label>
+        </div>
+        <p class="field field--line fcol__field">
+          <label class="field__label" for="f-cond">Condition</label>
+          <select class="field__control" id="f-cond">
+            <option>Any condition</option><option>New / never lived in</option><option>Renovated</option><option>Needs work</option>
+          </select>
+        </p>
+        <p class="field field--line fcol__field">
+          <label class="field__label" for="f-year">Year built</label>
+          <select class="field__control" id="f-year">
+            <option>Any year</option><option>2020 and newer</option><option>2000 — 2019</option><option>Before 2000</option><option>Listed / heritage</option>
+          </select>
+        </p>
+      </section>
+    </div>
+
+    <div class="fsheet__foot">
+      <button class="fsheet__reset" type="button" data-filters-reset>Reset all</button>
+      <p class="fsheet__note" data-filters-delta>Filters apply to the visible index</p>
+      <button class="btn btn--accent" type="button" data-filters-apply>Show <span data-filters-count>33</span> files</button>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+
+
+</html>
